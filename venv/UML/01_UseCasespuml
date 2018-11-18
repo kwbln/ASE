@@ -1,0 +1,29 @@
+@startuml
+
+skinparam packageStyle rectangle
+
+actor User
+actor Admin
+
+rectangle strava {
+}
+
+rectangle system {
+(Use data) as (Use) << Main >>
+(Evaluate data) as (Evaluate)
+(Visualize data) as (Visualize)
+(Forecast data) as (Forecast)
+(Manage app) as (Manage) << Configuration >>
+}
+
+User --> (Use) :use
+User --> strava :use
+Admin --> (Manage)
+strava <.. (Use) :retrieve
+
+(Use) -- (Evaluate)  :include
+(Use) -- (Visualize) :include
+(Use) -- (Forecast) :include
+
+User <|-- Admin
+@enduml

@@ -1,0 +1,56 @@
+@startuml
+
+class User {
+    ID
+    Name
+    isAdmin
+    ---
+    get()
+}
+
+class Activity {
+    ID
+    User ID
+    ---
+    get()
+}
+
+class Lap {
+    ID
+    Activity ID
+    StartTime
+    DistanceMeters
+    MaximumSpeed
+    Calories
+    AverageHeartRateBpm
+    MaximumHeartRateBpm
+    ---
+    get()
+}
+
+class Track {
+    ID
+    Lap ID
+    ---
+    get()
+}
+
+class Trackpoint {
+    ID
+    Track
+    Time
+    LatitudeDegrees
+    LongitudeDegrees
+    AltitudeMeters
+    HeartRateBpm
+    ---
+    get()
+}
+class Device {
+    ID
+    Name
+    ---
+    get()
+}
+
+@enduml
