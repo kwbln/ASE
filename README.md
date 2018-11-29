@@ -1,6 +1,6 @@
 
 # Sports Data Evaluation
-![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=bugs)
+
 
 ## Advanced Software Engineering - Winter semester 2018/29
 
@@ -18,3 +18,16 @@ The contribution in Moodle is just a Link to GitHub in the comment section (@edl
 
 The complete documentation must be found in the GitHub doc (e.g. ReadMe or Wiki). It should explain also B in three pages.
 
+![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=alert_status)
+
+![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=bugs)
+![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=code_smells)
+![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=coverage)
+![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=duplicated_lines_density)
+![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=ncloc)
+![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=vulnerabilities)
+
+![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=sqale_rating)
+![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=reliability_rating)
+![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=security_rating)
+![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=sqale_index)
