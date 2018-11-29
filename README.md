@@ -1,5 +1,6 @@
 
-# Strava-Connector
+# Sports Data Evaluation
+https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=bugs
 
 ## Advanced Software Engineering - Winter semester 2018/29
 
