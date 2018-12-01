@@ -1,6 +1,14 @@
 import pandas as pd
 import os
 
+def main():
+    print("Hello user!")
+    print("What you wanna do?")
+    print("------------------")
+    print("1 - use sample activities")
+    print("2 - use your own activities")
+    var = input()
+    print("You entered " + str(var))
 
 def generate_sample():
     #cwd = os.getcwd()
@@ -13,11 +21,11 @@ def show_countries(df):
     countries = df.Country.unique()
     return countries
 
-df = generate_sample()
+#df = generate_sample()
+#print(generate_sample())
 
-print(generate_sample())
+#dfCountries = show_countries(df)
+#print(dfCountries)
 
-dfCountries = show_countries(df)
-
-print(dfCountries)
+main()
 
