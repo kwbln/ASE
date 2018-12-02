@@ -26,7 +26,7 @@ def generate_athletes_data(header):
     ath_url = 'https://www.strava.com/api/v3/athletes/' + setup.athlet_id + '/stats?per_page=30'
     json_data = r.get(ath_url, headers=header).json()
 
-    with codecs.open('Data/1 Generated/athlet_data.json', 'w', 'utf8') as f:
+    with codecs.open('_files_/_1 JSON_/athlet_data.json', 'w', 'utf8') as f:
         f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
     #for key, value in json_data.items():
     #    print(key + ':', value)
@@ -38,7 +38,7 @@ def generate_single_activity_data(header, activity_id = setup.activity_id):
     # print(type(json_data))
     # for key, value in json_data.items():
     #    print(key + ':', value)
-    with codecs.open('Data/1 Generated/activity_data.json', 'w', 'utf8') as f:
+    with codecs.open('_files_/_1 JSON_/activity_data.json', 'w', 'utf8') as f:
         f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 
 def generate_laps_data(header, activity_id = setup.activity_id):
@@ -48,7 +48,7 @@ def generate_laps_data(header, activity_id = setup.activity_id):
     # print(type(json_data))
     # for key, value in json_data.items():
     #    print(key + ':', value)
-    with codecs.open('Data/1 Generated/laps_data.json', 'w', 'utf8') as f:
+    with codecs.open('_files_/_1 JSON_/laps_data.json', 'w', 'utf8') as f:
         f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 
 def generate_all_activities_data(header):
@@ -56,7 +56,7 @@ def generate_all_activities_data(header):
 
     json_data = r.get(ath_url, headers=header).json()
 
-    with codecs.open('Data/1 Generated/activities_data.json', 'w', 'utf8') as f:
+    with codecs.open('_files_/_1 JSON_/activities_data.json', 'w', 'utf8') as f:
         f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 
 main()
