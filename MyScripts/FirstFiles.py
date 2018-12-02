@@ -4,7 +4,6 @@ import setup
 
 def main():
     os.chdir(setup.working_dir)
-    access_token = setup.access_token
     header = {'Authorization': setup.authorization}
 
     print("Hello user!")
@@ -12,6 +11,7 @@ def main():
 
     generate_athletes_data(header)
     generate_single_activity_data(header)
+    generate_laps_data(header)
     generate_all_activities_data(header)
 
     print("Done!")
@@ -39,6 +39,16 @@ def generate_single_activity_data(header, activity_id = setup.activity_id):
     # for key, value in json_data.items():
     #    print(key + ':', value)
     with codecs.open('Data/1 Generated/activity_data.json', 'w', 'utf8') as f:
+        f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
+
+def generate_laps_data(header, activity_id = setup.activity_id):
+    ath_url = 'https://www.strava.com/api/v3/activities/' + activity_id + '/laps'
+    json_data = r.get(ath_url, headers=header).json()
+    # print(json_data)
+    # print(type(json_data))
+    # for key, value in json_data.items():
+    #    print(key + ':', value)
+    with codecs.open('Data/1 Generated/laps_data.json', 'w', 'utf8') as f:
         f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 
 def generate_all_activities_data(header):
