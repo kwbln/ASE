@@ -59,8 +59,5 @@ def generate_all_activities_data(header):
     with codecs.open('Data/1 Generated/activities_data.json', 'w', 'utf8') as f:
         f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 
-#dfCountries = show_countries(df)
-#print(dfCountries)
-
 main()
 
