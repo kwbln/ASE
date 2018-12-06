@@ -1,0 +1,52 @@
+format 221
+
+classcanvas 128002 class_ref 141058 // <<actor>> athlet
+  classdiagramsettings member_max_width 0 end
+  xyz 254 50 2000
+end
+classcanvas 128386 class_ref 148098 // activity
+  classdiagramsettings member_max_width 0 end
+  xyz 474 97 2000
+end
+classcanvas 128514 class_ref 154754 // club
+  classdiagramsettings member_max_width 0 end
+  xyz 91 85 2000
+end
+classcanvas 128642 class_ref 148226 // lap
+  classdiagramsettings member_max_width 0 end
+  xyz 664 108 2000
+end
+classcanvas 128770 class_ref 154882 // sport_type
+  classdiagramsettings member_max_width 0 end
+  xyz 98 260 2000
+end
+classcanvas 129666 class_ref 155010 // country
+  classdiagramsettings member_max_width 0 end
+  xyz 282 293 2000
+end
+relationcanvas 128898 relation_ref 134530 // <association>
+  from ref 128514 z 2001 to ref 128002
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129282 relation_ref 134914 // <aggregation>
+  from ref 128386 z 2001 to ref 128642
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129410 relation_ref 135042 // <association>
+  from ref 128514 z 2001 to ref 128770
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129538 relation_ref 135170 // <association>
+  from ref 128002 z 2001 to ref 128386
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 129794 relation_ref 135298 // <association>
+  from ref 128002 z 2001 to ref 129666
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+end

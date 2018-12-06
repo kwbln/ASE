@@ -1,0 +1,40 @@
+format 221
+
+usecasecanvas 128130 usecase_ref 141058 // analyze athlet's data
+  xyzwh 507 87 3005 143 61 label_xy 523 107
+end
+classcanvas 128642 class_ref 141314 // <<system>> strava
+  simpleclassdiagramsettings end
+  xyz 30 84 2000
+end
+subject 128770 ""
+  xyzwh 222 54 2000 476 269
+usecasecanvas 129026 usecase_ref 141186 // get  athlet's data
+  xyzwh 254 94 3005 163 65 label_xy 288 119
+end
+usecasecanvas 129410 usecase_ref 141314 // generate visualizations
+  xyzwh 499 245 3005 159 55 label_xy 508 263
+end
+usecasecanvas 129666 usecase_ref 141442 // calculate analyzes
+  xyzwh 287 215 3005 149 63 label_xy 316 237
+end
+classcanvas 130178 class_ref 141058 // <<actor>> athlet
+  simpleclassdiagramsettings end
+  xyz 746 104 2000
+end
+simplerelationcanvas 129154 simplerelation_ref 128002
+  from ref 128130 z 3006 stereotype "<<include>>" xyz 425 120 3000 to ref 129026
+end
+line 129282 ----
+  from ref 128642 z 3006 to ref 129026
+simplerelationcanvas 129538 simplerelation_ref 128130
+  from ref 128130 z 3006 stereotype "<<include>>" xyz 542 195 3000 to ref 129410
+end
+simplerelationcanvas 130050 simplerelation_ref 128386
+  decenter_begin 467
+  decenter_end 492
+  from ref 128130 z 3006 stereotype "<<include>>" xyz 430 180 3000 to ref 129666
+end
+line 130306 ---- decenter_begin 307
+  from ref 130178 z 3006 to ref 128130
+end

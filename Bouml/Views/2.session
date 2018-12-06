@@ -1,0 +1,18 @@
+window_sizes 1800 901 450 1344 721 128
+cleanlooks_style
+diagrams
+  active  classdiagram_ref 134658 // ClassDiagram
+    1075 576 100 A4 0 0
+  usecasediagram_ref 128130 // UseCaseDiagram
+    1075 576 100 A4 0 0
+end
+selected usecasediagram_ref 128130 // UseCaseDiagram
+open
+  usecase_ref 141058 // analyze athlet's data
+  class_ref 141186 // strava
+  class_ref 141314 // <<system>> strava
+  class_ref 154754 // club
+  class_ref 155010 // country
+  deploymentview_ref 128002 // DeploymentView
+end
+end
