@@ -18,7 +18,8 @@ class Presenter(object):
 
         json_data = r.get(ath_url, headers=header).json()
 
-        with codecs.open('_files_/_JSON_/activities_data.json', 'w', 'utf8') as f:
+        #with codecs.open('_files_/_JSON_/activities_data.json', 'w', 'utf8') as f:
+        with codecs.open('activities_data.json', 'w', 'utf8') as f:
             f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 
         print("Generate some files...")
