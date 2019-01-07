@@ -5,6 +5,14 @@ cache: pip
 install:
 #  - pip install -r requirements.txt
   - pip install requests
+
+addons:
+  sonarcloud:
+    organization: "kwbln-github" # the key of the org you chose at step #3
+    token:
+      secure: 7d94914b76b6aab7fbb0e8991334c7379dd91eeb # encrypted value of your token
+
   
 script:
+  - sonar-scanner
   - python MyScripts/main.py
