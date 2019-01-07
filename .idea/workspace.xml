@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
     </list>
     <ignored path="MyScripts/setup.py" />
     <ignored path="_files_/_1 JSON_/" />
@@ -47,7 +47,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sonar-project.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -108,6 +112,7 @@
         <option value="$PROJECT_DIR$/MyScripts/main.py" />
         <option value="$PROJECT_DIR$/MyScripts/Presenter.py" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/sonar-project.properties" />
       </list>
     </option>
   </component>
@@ -145,6 +150,12 @@
               <item name="ASE" type="b2602c69:ProjectViewProjectNode" />
               <item name="ASE" type="462c0819:PsiDirectoryNode" />
               <item name="MyScripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ASE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ASE" type="462c0819:PsiDirectoryNode" />
+              <item name="MyScripts" type="462c0819:PsiDirectoryNode" />
+              <item name=".scannerwork" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -346,7 +357,7 @@
       <workItem from="1545203369141" duration="1317000" />
       <workItem from="1545204862391" duration="1495000" />
       <workItem from="1545231441924" duration="834000" />
-      <workItem from="1546855392063" duration="3366000" />
+      <workItem from="1546855392063" duration="3530000" />
     </task>
     <task id="LOCAL-00001" summary="restart">
       <created>1543756646238</created>
@@ -446,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546859810535</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="integrate sonarcube in travis">
+      <created>1546860328783</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1546860328783</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -456,7 +474,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34162000" />
+    <option name="totallyTimeSpent" value="34326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -719,7 +737,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sonar-project.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
