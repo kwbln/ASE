@@ -2,58 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="restart">
-      <change afterPath="$PROJECT_DIR$/MyScripts/GetTheData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyScripts/GetTheDataPart_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyScripts/Presenter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyScripts/Tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyScripts/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class141058.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/class141058.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class141186.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class141314.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/class141314.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class148098.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/class148098.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class148226.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/classdiagrams.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/classdiagrams.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/classes_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/classes_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/componentdiagrams.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/componentdiagrams.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/deploymentdiagrams.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig128130.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/fig128130.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig134658.png" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/fig134658.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_60.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/index_60.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_65.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/index_65.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_67.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/index_67.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_68.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_71.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/index_71.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_73.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/index_73.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_76.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/index_76.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_78.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/index_78.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_83.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/index_83.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_85.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/index_85.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_86.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/index_86.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/navig.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/navig.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/packages.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/packages.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/public_operations.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/public_operations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/usecasediagrams.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/usecasediagrams.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/usecases.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Documentation/usecases.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/activity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Generated Code/activity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/club.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Generated Code/club.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/country.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Generated Code/country.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/lap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/sport_type.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Views/128130.diagram" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Views/128130.diagram" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Views/134658.diagram" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Views/134658.diagram" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Views/141314.diagram" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Views/141314.diagram" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Views/2.session" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Views/2.session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Views/Views.prj" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Views/Views.prj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bouml/Views/generation_settings" beforeDir="false" afterPath="$PROJECT_DIR$/Bouml/Views/generation_settings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyScripts/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyScripts/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/01_UseCase.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/02_Class.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/Activity.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/Component.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/Sequence.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyScripts/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyScripts/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_files_/_1 JSON_/activities_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/_files_/_1 JSON_/activities_data.json" afterDir="false" />
     </list>
     <ignored path="MyScripts/setup.py" />
     <ignored path="_files_/_1 JSON_/" />
@@ -66,7 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ASE$FirstFiles.coverage" NAME="FirstFiles Coverage Results" MODIFIED="1543762456748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
-    <SUITE FILE_PATH="coverage/ASE$main.coverage" NAME="main Coverage Results" MODIFIED="1544446038447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
+    <SUITE FILE_PATH="coverage/ASE$main.coverage" NAME="main Coverage Results" MODIFIED="1546856471409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
     <SUITE FILE_PATH="coverage/ASE$Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1544441943689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
     <SUITE FILE_PATH="coverage/ASE$GetTheData.coverage" NAME="GetTheData Coverage Results" MODIFIED="1544442609282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
     <SUITE FILE_PATH="coverage/ASE$testAPI.coverage" NAME="testAPI Coverage Results" MODIFIED="1543760858614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
@@ -77,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyScripts/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="221">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -87,10 +38,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyScripts/Presenter.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="13" column="41" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="41" />
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -99,10 +59,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyScripts/ClassTest.py">
+        <entry file="file://$PROJECT_DIR$/MyScripts/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="17">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -131,7 +91,6 @@
       <list>
         <option value="$PROJECT_DIR$/MyScripts/testAPI.py" />
         <option value="$PROJECT_DIR$/MyScripts/FirstFiles.py" />
-        <option value="$PROJECT_DIR$/MyScripts/setup.py" />
         <option value="$PROJECT_DIR$/MyScripts/ClassTest.py" />
         <option value="$PROJECT_DIR$/UML/Component.puml" />
         <option value="$PROJECT_DIR$/UML/00_Component.puml" />
@@ -142,6 +101,8 @@
         <option value="$PROJECT_DIR$/MyScripts/GetTheData.py" />
         <option value="$PROJECT_DIR$/Bouml/Generated Code/Presenter.py" />
         <option value="$PROJECT_DIR$/MyScripts/Presenter.py" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/MyScripts/setup.py" />
         <option value="$PROJECT_DIR$/MyScripts/main.py" />
       </list>
     </option>
@@ -157,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,18 +134,8 @@
             <path>
               <item name="ASE" type="b2602c69:ProjectViewProjectNode" />
               <item name="ASE" type="462c0819:PsiDirectoryNode" />
-              <item name="_UML_" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ASE" type="462c0819:PsiDirectoryNode" />
-              <item name="Bouml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ASE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ASE" type="462c0819:PsiDirectoryNode" />
-              <item name="Bouml" type="462c0819:PsiDirectoryNode" />
-              <item name="Generated Code" type="462c0819:PsiDirectoryNode" />
+              <item name="_files_" type="462c0819:PsiDirectoryNode" />
+              <item name="_1 JSON_" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ASE" type="b2602c69:ProjectViewProjectNode" />
@@ -194,7 +146,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,6 +341,7 @@
       <workItem from="1545203369141" duration="1317000" />
       <workItem from="1545204862391" duration="1495000" />
       <workItem from="1545231441924" duration="834000" />
+      <workItem from="1546855392063" duration="1076000" />
     </task>
     <task id="LOCAL-00001" summary="restart">
       <created>1543756646238</created>
@@ -454,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544086828504</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added install requests">
+      <created>1546855906173</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1546855906174</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -464,17 +423,18 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30796000" />
+    <option name="totallyTimeSpent" value="31872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6835443" visible="true" weight="0.32147652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6835443" visible="true" weight="0.3261745" />
       <window_info id="Structure" order="1" sideWeight="0.3164557" side_tool="true" weight="0.27114093" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4986577" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7604027" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,11 +442,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.15369128" side_tool="true" visible="true" weight="0.3243626" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.23959732" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info active="true" anchor="bottom" id="YouTrack" order="14" sideWeight="0.8463087" visible="true" weight="0.3243626" />
+      <window_info anchor="bottom" id="YouTrack" order="14" sideWeight="0.84563756" weight="0.3243626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -565,7 +525,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="restart" />
-    <option name="LAST_COMMIT_MESSAGE" value="restart" />
+    <MESSAGE value="added install requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added install requests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MyScripts/testAPI.py" />
@@ -641,9 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyScripts/Tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyScripts/GetTheDataPart_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -664,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyScripts/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bouml/Generated Code/Activity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -688,30 +639,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyScripts/main.py">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScripts/Tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScripts/ClassTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScripts/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyScripts/Presenter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="41" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyScripts/ClassTest.py">
+    <entry file="file://$PROJECT_DIR$/MyScripts/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
