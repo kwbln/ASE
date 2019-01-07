@@ -1,4 +1,7 @@
-language: python, trusty
+language: python
+
+dist: trusty
+
 python:
   - "3.7-dev"
 cache: pip

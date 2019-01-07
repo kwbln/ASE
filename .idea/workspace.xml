@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="integrate sonarcube in travis">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <ignored path="MyScripts/setup.py" />
     <ignored path="_files_/_1 JSON_/" />
@@ -36,16 +35,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sonar-project.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -111,8 +110,8 @@
         <option value="$PROJECT_DIR$/MyScripts/setup.py" />
         <option value="$PROJECT_DIR$/MyScripts/main.py" />
         <option value="$PROJECT_DIR$/MyScripts/Presenter.py" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/sonar-project.properties" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -351,7 +350,7 @@
       <workItem from="1545203369141" duration="1317000" />
       <workItem from="1545204862391" duration="1495000" />
       <workItem from="1545231441924" duration="834000" />
-      <workItem from="1546855392063" duration="6752000" />
+      <workItem from="1546855392063" duration="7457000" />
     </task>
     <task id="LOCAL-00001" summary="restart">
       <created>1543756646238</created>
@@ -493,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546862728528</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="integrate sonarcube in travis">
+      <created>1546863602077</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1546863602077</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -503,7 +509,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37548000" />
+    <option name="totallyTimeSpent" value="38253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -755,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyScripts/.scannerwork/report-task.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -769,6 +768,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
