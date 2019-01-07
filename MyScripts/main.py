@@ -42,7 +42,7 @@ def main():
 #     ath_url = 'https://www.strava.com/api/v3/athlete'
 #     json_data = r.get(ath_url, headers=header).json()
 #
-#     with codecs.open('_files_/_1 JSON_/profile_data.json', 'w', 'utf8') as f:
+#     with codecs.open('_files_/_JSON_/profile_data.json', 'w', 'utf8') as f:
 #         f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 #     # for key, value in json_data.items():
 #     #    print(key + ':', value)
@@ -52,7 +52,7 @@ def main():
 #     ath_url = 'https://www.strava.com/api/v3/athletes/' + setup.athlet_id + '/stats?per_page=30'
 #     json_data = r.get(ath_url, headers=header).json()
 #
-#     with codecs.open('_files_/_1 JSON_/athlet_data.json', 'w', 'utf8') as f:
+#     with codecs.open('_files_/_JSON_/athlet_data.json', 'w', 'utf8') as f:
 #         f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 #     # for key, value in json_data.items():
 #     #    print(key + ':', value)
@@ -65,7 +65,7 @@ def main():
 #     # print(type(json_data))
 #     # for key, value in json_data.items():
 #     #    print(key + ':', value)
-#     with codecs.open('_files_/_1 JSON_/activity_data.json', 'w', 'utf8') as f:
+#     with codecs.open('_files_/_JSON_/activity_data.json', 'w', 'utf8') as f:
 #         f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 #
 #
@@ -76,7 +76,7 @@ def main():
 #     # print(type(json_data))
 #     # for key, value in json_data.items():
 #     #    print(key + ':', value)
-#     with codecs.open('_files_/_1 JSON_/laps_data.json', 'w', 'utf8') as f:
+#     with codecs.open('_files_/_JSON_/laps_data.json', 'w', 'utf8') as f:
 #         f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 
 
@@ -85,7 +85,7 @@ def main():
 #
 #     json_data = r.get(ath_url, headers=header).json()
 #
-#     with codecs.open('_files_/_1 JSON_/activities_data.json', 'w', 'utf8') as f:
+#     with codecs.open('_files_/_JSON_/activities_data.json', 'w', 'utf8') as f:
 #         f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 
 
