@@ -17,4 +17,4 @@ addons:
   
 script:
   - sonar-scanner
-  - python MyScripts/main.py
+  - python main.py
