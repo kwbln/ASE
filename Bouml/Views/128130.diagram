@@ -1,40 +1,58 @@
 format 221
 
-usecasecanvas 128130 usecase_ref 141058 // analyze athlet's data
-  xyzwh 507 87 3005 143 61 label_xy 523 107
+usecasecanvas 128130 usecase_ref 141058 // Analyze Athlet's Data
+  xyzwh 416 104 3005 143 61 label_xy 430 124
 end
 classcanvas 128642 class_ref 141314 // <<system>> strava
   simpleclassdiagramsettings end
-  xyz 30 84 2000
+  xyz 11 269 2000
 end
 subject 128770 ""
-  xyzwh 222 54 2000 476 269
-usecasecanvas 129026 usecase_ref 141186 // get  athlet's data
-  xyzwh 254 94 3005 163 65 label_xy 288 119
+  xyzwh 181 51 1990 515 527
+usecasecanvas 129026 usecase_ref 141186 // Get Athlet's Data
+  xyzwh 216 308 3005 163 65 label_xy 250 333
 end
-usecasecanvas 129410 usecase_ref 141314 // generate visualizations
-  xyzwh 499 245 3005 159 55 label_xy 508 263
+usecasecanvas 129410 usecase_ref 141314 // Generate User Profile
+  xyzwh 205 414 1995 159 55 label_xy 218 432
 end
-usecasecanvas 129666 usecase_ref 141442 // calculate analyzes
-  xyzwh 287 215 3005 149 63 label_xy 316 237
+usecasecanvas 129666 usecase_ref 141442 // Calculate Analyzes
+  xyzwh 270 212 3005 149 63 label_xy 298 234
 end
-classcanvas 130178 class_ref 141058 // <<actor>> athlet
+classcanvas 130178 class_ref 141058 // athlet
   simpleclassdiagramsettings end
-  xyz 746 104 2000
+  xyz 717 83 2000
 end
-simplerelationcanvas 129154 simplerelation_ref 128002
-  from ref 128130 z 3006 stereotype "<<include>>" xyz 425 120 3000 to ref 129026
+usecasecanvas 130562 usecase_ref 147970 // Generate Visualization
+  xyzwh 452 331 3005 135 65 label_xy 466 350
+end
+usecasecanvas 131842 usecase_ref 148098 // Generate Heatmap
+  xyzwh 353 468 3005 131 45 label_xy 363 480
+end
+usecasecanvas 132098 usecase_ref 148226 // Generate Activity Chart
+  xyzwh 522 463 3005 153 59 label_xy 530 480
 end
 line 129282 ----
   from ref 128642 z 3006 to ref 129026
-simplerelationcanvas 129538 simplerelation_ref 128130
-  from ref 128130 z 3006 stereotype "<<include>>" xyz 542 195 3000 to ref 129410
-end
-simplerelationcanvas 130050 simplerelation_ref 128386
-  decenter_begin 467
-  decenter_end 492
-  from ref 128130 z 3006 stereotype "<<include>>" xyz 430 180 3000 to ref 129666
-end
 line 130306 ---- decenter_begin 307
   from ref 130178 z 3006 to ref 128130
+simplerelationcanvas 130818 simplerelation_ref 141698
+  from ref 129410 z 3006 to ref 130562
+end
+simplerelationcanvas 130946 simplerelation_ref 141826
+  from ref 129666 z 3006 to ref 129026
+end
+simplerelationcanvas 131586 simplerelation_ref 142210
+  decenter_begin 393
+  decenter_end 570
+  from ref 128130 z 3006 stereotype "<<include>>" xyz 377 187 3000 to ref 129666
+end
+simplerelationcanvas 131714 simplerelation_ref 142338
+  from ref 128130 z 3006 stereotype "<<include>>" xyz 465.5 247 3000 to ref 130562
+end
+simplerelationcanvas 131970 simplerelation_ref 142466
+  from ref 131842 z 3006 to ref 130562
+end
+simplerelationcanvas 132226 simplerelation_ref 142594
+  from ref 132098 z 3006 to ref 130562
+end
 end

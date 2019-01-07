@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="769" height="589" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="181" y="51" width="514" height="526" />
+<g>
+	<ellipse fill="#cbcbcb" stroke="none" cx="286" cy="443" rx="78" ry="26" />
+	<ellipse fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" cx="283" cy="440" rx="78" ry="26" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="218" y="440">Generate User Profile</text>
+</g>
+<g>
+	<ellipse fill="none" stroke="black" stroke-width="1" stroke-opacity="1" cx="69" cy="275" rx="6" ry="6" />
+	<line stroke="black" stroke-opacity="1" x1="58" y1="286" x2="80" y2="286" />
+	<line stroke="black" stroke-opacity="1" x1="69" y1="281" x2="69" y2="296" />
+	<line stroke="black" stroke-opacity="1" x1="69" y1="296" x2="59" y2="308" />
+	<line stroke="black" stroke-opacity="1" x1="69" y1="296" x2="79" y2="308" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="71" y="319">&lt;&lt;system&gt;&gt; strava</text>
+</g>
+<g>
+	<ellipse fill="none" stroke="black" stroke-width="1" stroke-opacity="1" cx="735" cy="89" rx="6" ry="6" />
+	<line stroke="black" stroke-opacity="1" x1="724" y1="100" x2="746" y2="100" />
+	<line stroke="black" stroke-opacity="1" x1="735" y1="95" x2="735" y2="110" />
+	<line stroke="black" stroke-opacity="1" x1="735" y1="110" x2="725" y2="122" />
+	<line stroke="black" stroke-opacity="1" x1="735" y1="110" x2="745" y2="122" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="737" y="133">athlet</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="377" y="195">&lt;&lt;include&gt;&gt;</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="465" y="255">&lt;&lt;include&gt;&gt;</text>
+</g>
+<g>
+	<ellipse fill="#cbcbcb" stroke="none" cx="420" cy="492" rx="64" ry="21" />
+	<ellipse fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" cx="417" cy="489" rx="64" ry="21" />
+</g>
+<g>
+	<ellipse fill="#cbcbcb" stroke="none" cx="489" cy="136" rx="70" ry="29" />
+	<ellipse fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" cx="486" cy="133" rx="70" ry="29" />
+</g>
+<g>
+	<ellipse fill="#cbcbcb" stroke="none" cx="600" cy="494" rx="75" ry="28" />
+	<ellipse fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" cx="597" cy="491" rx="75" ry="28" />
+</g>
+<g>
+	<ellipse fill="#cbcbcb" stroke="none" cx="346" cy="245" rx="73" ry="30" />
+	<ellipse fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" cx="343" cy="242" rx="73" ry="30" />
+</g>
+<g>
+	<ellipse fill="#cbcbcb" stroke="none" cx="299" cy="342" rx="80" ry="31" />
+	<ellipse fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" cx="296" cy="339" rx="80" ry="31" />
+</g>
+<g>
+	<ellipse fill="#cbcbcb" stroke="none" cx="521" cy="365" rx="66" ry="31" />
+	<ellipse fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" cx="518" cy="362" rx="66" ry="31" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="430" y="132">Analyze Athlet's Data</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="298" y="242">Calculate Analyzes</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="363" y="488">Generate Heatmap</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="250" y="341">Get Athlet's Data</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="466" y="358">Generate Views</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="530" y="488">Generate Activity Chart</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="716" y1="102" x2="558" y2="123" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="131" y1="310" x2="215" y2="325" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="359" y1="413" x2="445" y2="383" />
+	<line stroke="black" stroke-opacity="1" x1="451" y1="382" x2="443" y2="378" />
+	<line stroke="black" stroke-opacity="1" x1="451" y1="382" x2="447" y2="389" />
+	<line stroke="black" stroke-opacity="1" x1="443" y1="378" x2="447" y2="389" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="354" y1="211" x2="361" y2="214" />
+	<line stroke="black" stroke-opacity="1" x1="354" y1="211" x2="357" y2="203" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="472" y1="164" x2="354" y2="211" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="513" y1="330" x2="518" y2="323" />
+	<line stroke="black" stroke-opacity="1" x1="513" y1="330" x2="506" y2="324" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="491" y1="164" x2="513" y2="330" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="311" y1="307" x2="319" y2="304" />
+	<line stroke="black" stroke-opacity="1" x1="311" y1="307" x2="308" y2="298" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="327" y1="274" x2="311" y2="307" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="434" y1="467" x2="485" y2="399" />
+	<line stroke="black" stroke-opacity="1" x1="489" y1="395" x2="480" y2="396" />
+	<line stroke="black" stroke-opacity="1" x1="489" y1="395" x2="490" y2="403" />
+	<line stroke="black" stroke-opacity="1" x1="480" y1="396" x2="490" y2="403" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="579" y1="462" x2="541" y2="400" />
+	<line stroke="black" stroke-opacity="1" x1="538" y1="395" x2="536" y2="403" />
+	<line stroke="black" stroke-opacity="1" x1="538" y1="395" x2="546" y2="396" />
+	<line stroke="black" stroke-opacity="1" x1="536" y1="403" x2="546" y2="396" />
+</g>
+</svg>

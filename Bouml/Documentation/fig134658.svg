@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="746" height="375" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="336" y="297" width="3" height="65" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="286" y="359" width="53" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="282" y="293" width="54" height="66" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="309" y="303">country</text>
+	<line stroke="black" stroke-opacity="1" x1="282" y1="313" x2="336" y2="313" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="286" y="323">id</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="286" y="341">name</text>
+	<line stroke="black" stroke-opacity="1" x1="282" y1="351" x2="336" y2="351" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="170" y="264" width="3" height="65" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="102" y="326" width="71" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="98" y="260" width="72" height="66" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="134" y="270">sport_type</text>
+	<line stroke="black" stroke-opacity="1" x1="98" y1="280" x2="170" y2="280" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="102" y="290">id</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="102" y="308">name</text>
+	<line stroke="black" stroke-opacity="1" x1="98" y1="318" x2="170" y2="318" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="526" y="101" width="3" height="65" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="478" y="163" width="51" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="474" y="97" width="52" height="66" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="500" y="107">activity</text>
+	<line stroke="black" stroke-opacity="1" x1="474" y1="117" x2="526" y2="117" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="478" y="127">id</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="478" y="145">map</text>
+	<line stroke="black" stroke-opacity="1" x1="474" y1="155" x2="526" y2="155" />
+</g>
+<g>
+	<ellipse fill="none" stroke="black" stroke-width="1" stroke-opacity="1" cx="347" cy="52" rx="6" ry="6" />
+	<line stroke="black" stroke-opacity="1" x1="336" y1="63" x2="358" y2="63" />
+	<line stroke="black" stroke-opacity="1" x1="347" y1="58" x2="347" y2="73" />
+	<line stroke="black" stroke-opacity="1" x1="347" y1="73" x2="337" y2="85" />
+	<line stroke="black" stroke-opacity="1" x1="347" y1="73" x2="357" y2="85" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="349" y="96">athlet</text>
+	<line stroke="black" stroke-opacity="1" x1="306" y1="106" x2="392" y2="106" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="310" y="116">id</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="310" y="134">name</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="310" y="152">clubs</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="310" y="170">activities</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="310" y="188">country</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="310" y="206">creation_date</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="310" y="224">email</text>
+	<line stroke="black" stroke-opacity="1" x1="306" y1="234" x2="392" y2="234" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="310" y="244">setName()</text>
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="159" y="89" width="3" height="101" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="95" y="187" width="67" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="91" y="85" width="68" height="102" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="125" y="95">club</text>
+	<line stroke="black" stroke-opacity="1" x1="91" y1="105" x2="159" y2="105" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="95" y="115">id</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="95" y="133">name</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="95" y="151">url</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="95" y="169">sport_type</text>
+	<line stroke="black" stroke-opacity="1" x1="91" y1="179" x2="159" y2="179" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="730" y="112" width="3" height="101" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="668" y="210" width="65" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="664" y="108" width="66" height="102" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="697" y="118">lap</text>
+	<line stroke="black" stroke-opacity="1" x1="664" y1="128" x2="730" y2="128" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="668" y="138">id</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="668" y="156">activity_id</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="668" y="174">start_date</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="668" y="192">distance</text>
+	<line stroke="black" stroke-opacity="1" x1="664" y1="202" x2="730" y2="202" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="163" y1="139" x2="305" y2="147" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="392" y1="144" x2="473" y2="135" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="530" y1="135" x2="663" y2="154" />
+	<polygon fill="#ffffff" stroke="black" stroke-opacity="1" points="530,135 536,129 541,136 535,141" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="129" y1="191" x2="133" y2="259" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="326" y1="254" x2="317" y2="292" />
+</g>
+</svg>

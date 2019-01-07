@@ -1,0 +1,10 @@
+@startuml
+
+package "Athlet" {
+
+    [Model] <- [Controller]
+    [View] <- [Controller]
+
+}
+
+@enduml

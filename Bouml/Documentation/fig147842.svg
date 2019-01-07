@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="649" height="332" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="181" y="242" width="3" height="35" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="107" y="274" width="77" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="103" y="238" width="78" height="36" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="142" y="248">UserProfile</text>
+	<line stroke="black" stroke-opacity="1" x1="103" y1="258" x2="181" y2="258" />
+	<line stroke="black" stroke-opacity="1" x1="103" y1="266" x2="181" y2="266" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="467" y="99" width="3" height="83" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="381" y="179" width="89" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="377" y="95" width="90" height="84" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="422" y="105">GeneralView</text>
+	<line stroke="black" stroke-opacity="1" x1="377" y1="115" x2="467" y2="115" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="381" y="125">colorscheme</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="381" y="143">type</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="381" y="161">size</text>
+	<line stroke="black" stroke-opacity="1" x1="377" y1="171" x2="467" y2="171" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="384" y="284" width="3" height="35" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="300" y="316" width="87" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="296" y="280" width="88" height="36" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="340" y="290">ActivityChart</text>
+	<line stroke="black" stroke-opacity="1" x1="296" y1="300" x2="384" y2="300" />
+	<line stroke="black" stroke-opacity="1" x1="296" y1="308" x2="384" y2="308" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="633" y="220" width="3" height="47" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="573" y="264" width="63" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="569" y="216" width="64" height="48" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="601" y="226">Heatmap</text>
+	<line stroke="black" stroke-opacity="1" x1="569" y1="236" x2="633" y2="236" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="573" y="246">map_type</text>
+	<line stroke="black" stroke-opacity="1" x1="569" y1="256" x2="633" y2="256" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="185" y1="239" x2="370" y2="159" />
+	<line stroke="#000000" stroke-opacity="1" x1="376" y1="157" x2="368" y2="153" />
+	<line stroke="#000000" stroke-opacity="1" x1="376" y1="157" x2="372" y2="164" />
+	<line stroke="#000000" stroke-opacity="1" x1="368" y1="153" x2="372" y2="164" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="568" y1="221" x2="476" y2="167" />
+	<line stroke="#000000" stroke-opacity="1" x1="471" y1="165" x2="473" y2="173" />
+	<line stroke="#000000" stroke-opacity="1" x1="471" y1="165" x2="479" y2="162" />
+	<line stroke="#000000" stroke-opacity="1" x1="473" y1="173" x2="479" y2="162" />
+</g>
+<g>
+	<line stroke="#000000" stroke-opacity="1" x1="351" y1="279" x2="396" y2="188" />
+	<line stroke="#000000" stroke-opacity="1" x1="399" y1="183" x2="390" y2="185" />
+	<line stroke="#000000" stroke-opacity="1" x1="399" y1="183" x2="401" y2="191" />
+	<line stroke="#000000" stroke-opacity="1" x1="390" y1="185" x2="401" y2="191" />
+</g>
+</svg>

@@ -1,18 +1,12 @@
-window_sizes 1800 901 450 1344 721 128
+window_sizes 1920 1001 450 1464 821 128
 cleanlooks_style
 diagrams
-  active  classdiagram_ref 134658 // ClassDiagram
-    1075 576 100 A4 0 0
-  usecasediagram_ref 128130 // UseCaseDiagram
-    1075 576 100 A4 0 0
+  active  sequencediagram_ref 161026 // Sequences
+    1171 656 100 A4 0 0
 end
-selected usecasediagram_ref 128130 // UseCaseDiagram
+selected sequencediagram_ref 161026 // Sequences
 open
-  usecase_ref 141058 // analyze athlet's data
-  class_ref 141186 // strava
-  class_ref 141314 // <<system>> strava
-  class_ref 154754 // club
-  class_ref 155010 // country
-  deploymentview_ref 128002 // DeploymentView
+  usecaseview_ref 134530 // Use Cases
+  deploymentview_ref 128002 // ClassView
 end
 end

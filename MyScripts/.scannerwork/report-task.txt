@@ -1,0 +1,7 @@
+organization=kwbln-github
+projectKey=kwbln_ASE
+serverUrl=https://sonarcloud.io
+serverVersion=7.5.0.19741
+dashboardUrl=https://sonarcloud.io/dashboard?id=kwbln_ASE
+ceTaskId=AWdvZlbj_dks3zB7Ovk9
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWdvZlbj_dks3zB7Ovk9

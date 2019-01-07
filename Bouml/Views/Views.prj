@@ -1,6 +1,6 @@
 format 221
 "Views"
-  revision 10
+  revision 18
   modified_by 2 "kwagn"
   python_root_dir "C:\\Users\\kwagn\\Github\\ASE\\Bouml\\Generated Code\\"
 
@@ -47,7 +47,7 @@ format 221
   
   ncouples 1
   key "html dir" value "C:\\Users\\kwagn\\Github\\ASE\\Bouml\\Documentation/"
-  usecaseview 134530 "usecaseview"
+  usecaseview 134530 "Use Cases"
     
     usecasediagramsettings end
     
@@ -68,12 +68,12 @@ format 221
     
     activitydiagramsettings
      end
-    usecasediagram 128130 "UseCaseDiagram"
+    usecasediagram 128130 "UseCaseD"
       usecasediagramsettings draw_all_relations no end
       size A4
     end
 
-    usecase 141058 "analyze athlet's data"
+    usecase 141058 "Analyze Athlet's Data"
       
       usecasediagramsettings end
       
@@ -97,28 +97,45 @@ format 221
       simplerelation 128002
 	-_->
 	  stereotype "include"
-	  on usecase_ref 141186 // get  athlet's data
+	  on usecase_ref 141186 // Get Athlet's Data
       end
 
       simplerelation 128130
 	-_->
 	  stereotype "include"
-	  on usecase_ref 141314 // generate visualizations
+	  on usecase_ref 141314 // Generate User Profile
       end
 
       simplerelation 128258
 	-_->
-	  on usecase_ref 141442 // calculate analyzes
+	  on usecase_ref 141442 // Calculate Analyzes
       end
 
       simplerelation 128386
 	-_->
 	  stereotype "include"
-	  on usecase_ref 141442 // calculate analyzes
+	  on usecase_ref 141442 // Calculate Analyzes
+      end
+
+      simplerelation 141570
+	-_->
+	  on usecase_ref 147970 // Generate Views
+      end
+
+      simplerelation 142210
+	-_->
+	  stereotype "include"
+	  on usecase_ref 141442 // Calculate Analyzes
+      end
+
+      simplerelation 142338
+	-_->
+	  stereotype "include"
+	  on usecase_ref 147970 // Generate Views
       end
     end
 
-    usecase 141186 "get  athlet's data"
+    usecase 141186 "Get Athlet's Data"
       
       usecasediagramsettings end
       
@@ -141,7 +158,71 @@ format 221
        end
     end
 
-    usecase 141314 "generate visualizations"
+    usecase 141314 "Generate User Profile"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 141698
+	---|>
+	  on usecase_ref 147970 // Generate Views
+      end
+
+      simplerelation 141954
+	-_->
+	  on usecase_ref 141186 // Get Athlet's Data
+      end
+    end
+
+    usecase 141442 "Calculate Analyzes"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 141826
+	-_->
+	  on usecase_ref 141186 // Get Athlet's Data
+      end
+
+      simplerelation 142082
+	-_->
+	  on usecase_ref 141058 // Analyze Athlet's Data
+      end
+    end
+
+    usecase 147970 "Generate Views"
       
       usecasediagramsettings end
       
@@ -164,7 +245,7 @@ format 221
        end
     end
 
-    usecase 141442 "calculate analyzes"
+    usecase 148098 "Generate Heatmap"
       
       usecasediagramsettings end
       
@@ -185,10 +266,46 @@ format 221
       
       activitydiagramsettings
        end
+      simplerelation 142466
+	---|>
+	  on usecase_ref 147970 // Generate Views
+      end
+    end
+
+    usecase 148226 "Generate Activity Chart"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 142594
+	---|>
+	  on usecase_ref 147970 // Generate Views
+      end
+    end
+
+    sequencediagram 161026 "Sequences"
+      sequencediagramsettings end
+      overlapping_bars size A4
     end
   end
 
-  classview 128002 "ClassView"
+  classview 128002 "Classes"
     
     classdiagramsettings member_max_width 0 end
     
@@ -208,162 +325,23 @@ format 221
     
     activitydiagramsettings
      end
-    associated_deployment_view deploymentview_ref 134530 // ClassView
-    class 141058 "<<actor>> athlet"
-      visibility package stereotype "actor"
-      cpp_decl ""
-      java_decl ""
-      php_decl ""
-      python_2_2 python_decl ""
-      idl_decl ""
-      explicit_switch_type ""
-      mysql_decl ""
-      
-      attribute 128002 "id"
-	private explicit_type "int"
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl ""
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
-      end
-
-      attribute 128130 "name"
-	private explicit_type "char"
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl ""
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
-      end
-
-      operation 128002 "setName"
-	public explicit_return_type ""
-	nparams 0
-	
-	
-	
-	
-	
-      end
-
-      attribute 134914 "clubs"
-	private type class_ref 154754 // club
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl ""
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
-      end
-
-      attribute 135170 "activities"
-	private type class_ref 148098 // activity
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl ""
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
-      end
-
-      classrelation 134658 // <association>
-	relation_ref 134530 // <association>
-      end
-
-      classrelation 135810 // <association>
-	relation 135170 ----
-	  a role_name "" private
-	    python "${comment}${self}${name} = ${value}
-"
-	    classrelation_ref 135810 // <association>
-	  b role_name "" private
-	    python "${comment}${self}${name} = ${value}
-"
-	    classrelation_ref 135938 // <association>
-      end
-
-      attribute 142850 "country"
-	private type class_ref 155010 // country
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl ""
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
-      end
-
-      classrelation 136066 // <association>
-	relation 135298 ----
-	  a role_name "" private
-	    python "${comment}${self}${name} = ${value}
-"
-	    classrelation_ref 136066 // <association>
-	  b role_name "" private
-	    python "${comment}${self}${name} = ${value}
-"
-	    classrelation_ref 136194 // <association>
-      end
-
-      attribute 143234 "creation_date"
-	private explicit_type ""
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl ""
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
-      end
-
-      attribute 143362 "email"
-	private explicit_type ""
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl ""
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
-      end
+    associated_deployment_view deploymentview_ref 128002 // ClassView
+    classdiagram 134658 "ModelClassesD"
+      classdiagramsettings draw_all_relations no member_max_width 0 end
+      size A4
     end
 
-    class 141186 "strava"
-      visibility package stereotype "actor"
-      cpp_decl ""
-      java_decl ""
-      php_decl ""
-      python_2_2 python_decl "class ${name}${inherit}:
-${docstring}${members}
-"
-      idl_decl ""
-      explicit_switch_type ""
-      mysql_decl ""
-      
+    classdiagram 147842 "ViewClassesD"
+      classdiagramsettings member_max_width 0 end
+      size A4
     end
 
-    class 141314 "<<system>> strava"
-      visibility package stereotype "actor"
-      cpp_decl ""
-      java_decl ""
-      php_decl ""
-      python_2_2 python_decl "class ${name}${inherit}:
-${docstring}${members}
-"
-      idl_decl ""
-      explicit_switch_type ""
-      mysql_decl ""
-      
+    classdiagram 147970 "PresenterClassesD"
+      classdiagramsettings member_max_width 0 end
+      size A4
     end
 
-    class 148098 "activity"
+    class 148098 "Activity"
       visibility package 
       cpp_decl ""
       java_decl ""
@@ -375,6 +353,7 @@ ${docstring}${members}
       explicit_switch_type ""
       mysql_decl ""
       
+      comment "Description"
       attribute 135298 "id"
 	private explicit_type ""
 	cpp_decl ""
@@ -387,97 +366,12 @@ ${docstring}${members}
 	MysqlColumn
       end
 
-      classrelation 134914 // <aggregation>
-	relation_ref 134658 // <aggregation>
-      end
-
-      classrelation 135170 // <aggregation>
-	relation_ref 134786 // <aggregation>
-      end
-
-      classrelation 135298 // <aggregation>
-	relation 134914 o---
-	  a role_name "" private
-	    python "${comment}${self}${name} = ${value}
-"
-	    classrelation_ref 135298 // <aggregation>
-	  b role_name "" private
-	    python "${comment}${self}${name} = ${value}
-"
-	    classrelation_ref 135426 // <aggregation>
-      end
-
       classrelation 135938 // <association>
 	relation_ref 135170 // <association>
       end
-    end
 
-    class 148226 "lap"
-      visibility package 
-      cpp_decl ""
-      java_decl ""
-      php_decl ""
-      python_2_2 python_decl "class ${name}${inherit}:
-${docstring}${members}
-"
-      idl_decl ""
-      explicit_switch_type ""
-      mysql_decl ""
-      
-      attribute 141954 "id"
-	private explicit_type ""
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl "${comment}${self}${name} = ${value}
-"
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
-      end
-
-      classrelation 135042 // <aggregation>
-	relation 134786 o---
-	  a role_name "" private
-	    python "${comment}${self}${name} = ${value}
-"
-	    classrelation_ref 135042 // <aggregation>
-	  b role_name "" private
-	    python "${comment}${self}${name} = ${value}
-"
-	    classrelation_ref 135170 // <aggregation>
-      end
-
-      classrelation 135426 // <aggregation>
-	relation_ref 134914 // <aggregation>
-      end
-
-      attribute 143490 "activity_id"
-	private type class_ref 148098 // activity
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl "${comment}${self}${name} = ${value}
-"
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
-      end
-
-      attribute 143618 "start_date"
-	private explicit_type ""
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl "${comment}${self}${name} = ${value}
-"
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
-      end
-
-      attribute 143746 "distance"
-	private explicit_type ""
+      attribute 150274 "map"
+	private explicit_type "string"
 	cpp_decl ""
 	java_decl ""
 	php_decl ""
@@ -489,7 +383,7 @@ ${docstring}${members}
       end
     end
 
-    class 154754 "club"
+    class 154754 "Club"
       visibility package 
       cpp_decl ""
       java_decl ""
@@ -538,7 +432,7 @@ ${docstring}${members}
       end
 
       attribute 142466 "sport_type"
-	private type class_ref 154882 // sport_type
+	private explicit_type "sport_type"
 	cpp_decl ""
 	java_decl ""
 	php_decl ""
@@ -560,21 +454,123 @@ ${docstring}${members}
 "
 	    classrelation_ref 134658 // <association>
       end
+    end
 
-      classrelation 135554 // <association>
-	relation 135042 ----
+    class 141058 "Athlet"
+      visibility package stereotype "actor"
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl ""
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 128002 "id"
+	private explicit_type "int"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 128130 "name"
+	private explicit_type "char"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      operation 128002 "setName"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	
+	
+      end
+
+      attribute 134914 "clubs"
+	private type class_ref 154754 // Club
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 135170 "activities"
+	private type class_ref 148098 // Activity
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 134658 // <association>
+	relation_ref 134530 // <association>
+      end
+
+      classrelation 135810 // <association>
+	relation 135170 ----
 	  a role_name "" private
 	    python "${comment}${self}${name} = ${value}
 "
-	    classrelation_ref 135554 // <association>
+	    classrelation_ref 135810 // <association>
 	  b role_name "" private
 	    python "${comment}${self}${name} = ${value}
 "
-	    classrelation_ref 135682 // <association>
+	    classrelation_ref 135938 // <association>
+      end
+
+      attribute 142850 "country"
+	private explicit_type "country"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 143234 "creation_date"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 143362 "email"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl ""
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
       end
     end
 
-    class 154882 "sport_type"
+    class 162434 "HeatmapPresenter"
       visibility package 
       cpp_decl ""
       java_decl ""
@@ -586,53 +582,41 @@ ${docstring}${members}
       explicit_switch_type ""
       mysql_decl ""
       
-      attribute 142594 "id"
-	private explicit_type ""
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl "${comment}${self}${name} = ${value}
-"
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
+      classrelation 156418 // <generalisation>
+	relation 155394 ---|>
+	  a public
+	    python "${type}"
+	    classrelation_ref 156418 // <generalisation>
+	  b parent class_ref 162050 // Presenter
       end
 
-      attribute 142722 "name"
-	private explicit_type ""
-	cpp_decl ""
-	java_decl ""
-	php_decl ""
-	python_decl "${comment}${self}${name} = ${value}
+      operation 141186 "get_heatmap"
+	public explicit_return_type ""
+	nparams 1
+	  param out name "" type class_ref 161922 // Heatmap
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${p0}${v0}${)}:
+${docstring}${body}
 "
-	idl_decl ""
-	mysql_decl ""
-	MysqlColumn
+	
       end
 
-      classrelation 134786 // <aggregation>
-	relation 134658 o---
-	  a role_name "" private
-	    python "${comment}${self}${name} = ${value}
+      operation 141570 "set_heatmap_data"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${)}:
+${docstring}${body}
 "
-	    classrelation_ref 134786 // <aggregation>
-	  b role_name "" private
-	    python "${comment}${self}${name} = ${value}
-"
-	    classrelation_ref 134914 // <aggregation>
-      end
-
-      classrelation 135682 // <association>
-	relation_ref 135042 // <association>
+	
       end
     end
 
-    classdiagram 134658 "ClassDiagram"
-      classdiagramsettings draw_all_relations no member_max_width 0 end
-      size A4
-    end
-
-    class 155010 "country"
+    class 162178 "UserPresenter"
       visibility package 
       cpp_decl ""
       java_decl ""
@@ -644,7 +628,165 @@ ${docstring}${members}
       explicit_switch_type ""
       mysql_decl ""
       
-      attribute 142978 "id"
+      operation 134530 "get_user_profile"
+	public explicit_return_type ""
+	nparams 1
+	  param out name "" type class_ref 161666 // UserProfile
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${p0}${v0}${)}:
+${docstring}${body}
+"
+	
+      end
+
+      classrelation 156162 // <generalisation>
+	relation 155138 ---|>
+	  a public
+	    python "${type}"
+	    classrelation_ref 156162 // <generalisation>
+	  b parent class_ref 162050 // Presenter
+      end
+
+      operation 141314 "set_user_data"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${)}:
+${docstring}${body}
+"
+	
+      end
+    end
+
+    class 162050 "Presenter"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 141698 "get_strava_data"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${)}:
+${docstring}${body}
+"
+	
+      end
+    end
+
+    class 161922 "Heatmap"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 142978 // <generalisation>
+	relation 142082 ---|>
+	  a public
+	    python "${type}"
+	    classrelation_ref 142978 // <generalisation>
+	  b parent class_ref 161538 // GeneralView
+      end
+
+      attribute 150786 "map_type"
+	private explicit_type ""
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl "${comment}${self}${name} = ${value}
+"
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+    end
+
+    class 161794 "ActivityChart"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 142850 // <generalisation>
+	relation 141954 ---|>
+	  a public
+	    python "${type}"
+	    classrelation_ref 142850 // <generalisation>
+	  b parent class_ref 161538 // GeneralView
+      end
+    end
+
+    class 161666 "UserProfile"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 142722 // <generalisation>
+	relation 141826 ---|>
+	  a public
+	    python "${type}"
+	    classrelation_ref 142722 // <generalisation>
+	  b parent class_ref 161538 // GeneralView
+      end
+    end
+
+    class 161538 "GeneralView"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 150402 "colorscheme"
+	private type class_ref 168962 // Colorscheme
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl "${comment}${self}${name} = ${value}
+"
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 150530 "type"
 	private explicit_type ""
 	cpp_decl ""
 	java_decl ""
@@ -656,7 +798,7 @@ ${docstring}${members}
 	MysqlColumn
       end
 
-      attribute 143106 "name"
+      attribute 150658 "size"
 	private explicit_type ""
 	cpp_decl ""
 	java_decl ""
@@ -668,49 +810,243 @@ ${docstring}${members}
 	MysqlColumn
       end
 
-      classrelation 136194 // <association>
-	relation_ref 135298 // <association>
+      classrelation 149634 // <association>
+	relation_ref 148610 // <association>
+      end
+    end
+
+    class 168962 "Colorscheme"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      comment "https://public.tableau.com/en-us/s/gallery/100-color-palettes"
+      classrelation 149506 // <association>
+	relation 148610 ----
+	  a role_name "" private
+	    python "${comment}${self}${name} = ${value}
+"
+	    classrelation_ref 149506 // <association>
+	  b role_name "" private
+	    python "${comment}${self}${name} = ${value}
+"
+	    classrelation_ref 149634 // <association>
+      end
+    end
+
+    class 175490 "ActivityPresenter"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 156290 // <generalisation>
+	relation 155266 ---|>
+	  a public
+	    python "${type}"
+	    classrelation_ref 156290 // <generalisation>
+	  b parent class_ref 162050 // Presenter
+      end
+
+      operation 141058 "get_activity_chart"
+	public explicit_return_type ""
+	nparams 1
+	  param out name "" type class_ref 161794 // ActivityChart
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${p0}${v0}${)}:
+${docstring}${body}
+"
+	
+      end
+
+      operation 141442 "set_activity_data"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${)}:
+${docstring}${body}
+"
+	
       end
     end
   end
 
-  componentview 128002 "ComponentView"
+  componentview 128002 "Components"
     //component diagram settings
     componentdiagramsettings
      end
-    componentdiagram 141314 "ComponentDiagram"
+    componentdiagram 154498 "ComD"
       componentdiagramsettings
        end
       size A4
     end
-  end
 
-  deploymentview 128002 "DeploymentView"
-    //deployment diagram settings
-    deploymentdiagramsettings
-     end
-    deploymentdiagram 141186 "DeploymentDiagram"
-      deploymentdiagramsettings
-       end
-      size A4
+    component 128002 "Model"
+      simplerelation 135042
+	-_->
+	  on component_ref 128258 // Presenter
+      end
+    end
+
+    component 128130 "View"
+      simplerelation 134914
+	-_->
+	  on component_ref 128258 // Presenter
+      end
+    end
+
+    component 128258 "Presenter"
+      required_classes
+	class_ref 141314 // <<system>> strava
+      end
+    end
+
+    component 128386 "RestAPI"
+      provided_classes
+	class_ref 141314 // <<system>> strava
+      end
     end
   end
 
-  deploymentview 134530 "ClassView"
+  deploymentview 128002 "ClassView"
     //deployment diagram settings
     deploymentdiagramsettings
      end
-    artifact 128002 "strava"
+    artifact 128002 "Activity"
       stereotype "source"
       python_src "${comment}
 ${import}
 ${definition}"
       associated_elems
-	class_ref 141186 // strava
+	class_ref 148098 // Activity
       end
     end
 
-    artifact 128130 "<<system>> strava"
+    artifact 128258 "Club"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 154754 // Club
+      end
+    end
+
+    artifact 128386 "SportType"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+      end
+    end
+
+    artifact 128514 "Country"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+      end
+    end
+
+    artifact 128642 "HeatmapPresenter"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 162434 // HeatmapPresenter
+      end
+    end
+
+    artifact 128770 "ActivityPresenter"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 175490 // ActivityPresenter
+      end
+    end
+
+    artifact 128898 "UserPresenter"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 162178 // UserPresenter
+      end
+    end
+
+    artifact 129026 "Presenter"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 162050 // Presenter
+      end
+    end
+
+    artifact 129154 "HeatmapView"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 161922 // Heatmap
+      end
+    end
+
+    artifact 129282 "ActivityView"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 161794 // ActivityChart
+      end
+    end
+
+    artifact 129410 "UserView"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 161666 // UserProfile
+      end
+    end
+
+    artifact 129666 "Strava"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+      end
+    end
+
+    artifact 129794 "<<system>> strava"
       stereotype "source"
       python_src "${comment}
 ${import}
@@ -720,54 +1056,27 @@ ${definition}"
       end
     end
 
-    artifact 128258 "activity"
+    artifact 136322 "GeneralView"
       stereotype "source"
       python_src "${comment}
 ${import}
 ${definition}"
       associated_elems
-	class_ref 148098 // activity
+	class_ref 161538 // GeneralView
       end
     end
 
-    artifact 128386 "lap"
+    artifact 136450 "Colorscheme"
       stereotype "source"
       python_src "${comment}
 ${import}
 ${definition}"
       associated_elems
-	class_ref 148226 // lap
-      end
-    end
-
-    artifact 128514 "club"
-      stereotype "source"
-      python_src "${comment}
-${import}
-${definition}"
-      associated_elems
-	class_ref 154754 // club
-      end
-    end
-
-    artifact 128642 "sport_type"
-      stereotype "source"
-      python_src "${comment}
-${import}
-${definition}"
-      associated_elems
-	class_ref 154882 // sport_type
-      end
-    end
-
-    artifact 128770 "country"
-      stereotype "source"
-      python_src "${comment}
-${import}
-${definition}"
-      associated_elems
-	class_ref 155010 // country
+	class_ref 168962 // Colorscheme
       end
     end
   end
+
+  package_ref 134786 // Strava
+
 end
