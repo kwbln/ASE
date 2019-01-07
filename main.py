@@ -11,7 +11,7 @@ def test():
 
 def main():
     header = {'Authorization': setup.authorization}
-    os.chdir(setup.working_dir)
+    #os.chdir(setup.working_dir)
 
     x = p.Presenter()
     x.generate_all_activities_data(header)
