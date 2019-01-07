@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ASE.iml" filepath="$PROJECT_DIR$/.idea/ASE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AdvSE/.idea/AdvSE.iml" filepath="$PROJECT_DIR$/../AdvSE/.idea/AdvSE.iml" />
     </modules>
   </component>
 </project>
