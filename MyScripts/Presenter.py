@@ -1,25 +1,20 @@
-import codecs
-import json
-import setup
-
-import requests as r
+import folium
 
 
 class Presenter(object):
 
-
     def __init__(self):
         pass
 
-    def generate_all_activities_data(self, header):
-        print("Hello user!")
-        print("Generate some files...")
-        ath_url = 'https://www.strava.com/api/v3/athlete/activities?per_page=30'
+    def create_map(self, df):
+        m = folium.Map(location=[52.5348302, 13.4720917], tiles='Stamen Terrain', zoom_start=12)
 
-        json_data = r.get(ath_url, headers=header).json()
+        for index, row in df.iterrows():
+            # folium.CircleMarker(location=[row['start_latitude'], row['start_longitude']], radius=5, color='red').add_to(
+            # m)
+            folium.Marker(location=[row['start_latitude'], row['start_longitude']],
+                          icon=folium.Icon(color='darkred', icon='circle')).add_to(m)
 
-        #with codecs.open('_files_/_JSON_/activities_data.json', 'w', 'utf8') as f:
-        with codecs.open('activities_data.json', 'w', 'utf8') as f:
-            f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
+        m.save('./map/my_map.html')
 
-        print("Generate some files...")
+        print('map saved')

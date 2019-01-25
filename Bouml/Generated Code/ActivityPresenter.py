@@ -1,8 +1,8 @@
 
-import Presenter
+import Preparator
 import ActivityView
 
-class ActivityPresenter(Presenter.Presenter):
+class ActivityPresenter(Preparator.Presenter):
     def get_activity_chart():
         pass
         

@@ -1,8 +1,8 @@
 
-import Presenter
+import Preparator
 import HeatmapView
 
-class HeatmapPresenter(Presenter.Presenter):
+class HeatmapPresenter(Preparator.Presenter):
     def get_heatmap():
         pass
         

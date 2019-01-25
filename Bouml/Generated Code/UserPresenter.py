@@ -1,8 +1,8 @@
 
 import UserView
-import Presenter
+import Preparator
 
-class UserPresenter(Presenter.Presenter):
+class UserPresenter(Preparator.Presenter):
     def get_user_profile():
         pass
         
