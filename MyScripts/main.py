@@ -1,6 +1,6 @@
 import Preparator as prep
 import Presenter as pres
-import _setup
+import strava_setup as strs
 
 
 def test():
@@ -8,8 +8,8 @@ def test():
 
 
 def main():
-    header = {'Authorization': _setup.authorization}
-    # os.chdir(setup.working_dir)
+
+    header = {'Authorization': strs.authorization}
 
     my_prep = prep.Preparator()
     my_df = my_prep.generate_all_activities_data(header)\
