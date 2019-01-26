@@ -9,6 +9,7 @@ install:
   - pip install pandas
   - pip install folium
   - pip install openpyxl
+  - pip install xlrd
   #- pip install codecs
   #- pip install json
   #- pip install os
