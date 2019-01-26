@@ -8,9 +8,9 @@ install:
   #  - pip install -r requirements.txt
   - pip install pandas
   - pip install folium
-  - pip install codecs
-  - pip install json
-  - pip install os
+  #- pip install codecs
+  #- pip install json
+  #- pip install os
   - pip install requests
 
 addons:
