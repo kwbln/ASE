@@ -2,7 +2,7 @@ language: python
 dist: trusty
 
 python:
-  - "3.7-dev"
+  - '3.7-dev'
 
 cache: pip
 
@@ -10,23 +10,27 @@ env:
   global:
     - PACKAGENAME='MyScripts'
 
-before install:
-  #  - pip install -r requirements.txt
-  - pip install pandas
-  - pip install folium
-  - pip install openpyxl
-  - pip install xlrd
-  - pip install requests
-
-install:
-  - python setup.py install
-
 addons:
   sonarcloud:
-    organization: "kwbln-github" # the key of the org you chose at step #3
+    organization: 'kwbln-github' # the key of the org you chose at step #3
   #    token:
   #      secure: "" # encrypted value of your token
 
+before_install:
+  - pip install -r requirements.txt
+  #- pip install pandas
+  #- pip install folium
+  #- pip install openpyxl
+  #- pip install xlrd
+  #- pip install requests
+
+install:
+  - python setup.py -q install
+
+
+
+before_script:
+  - sonar-scanner
 
 script:
   - sonar-scanner
