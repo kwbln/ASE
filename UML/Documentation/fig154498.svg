@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="768" height="318" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="405" y="254" width="3" height="51" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="247" y="302" width="161" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="243" y="250" width="162" height="52" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="324" y="270">&lt;&lt;component&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="324" y="296">View</text>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="387" y="254" width="14" height="23" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="382" y="259" width="9" height="4" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="382" y="269" width="9" height="4" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="752" y="242" width="3" height="51" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="594" y="290" width="161" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="590" y="238" width="162" height="52" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="671" y="258">&lt;&lt;component&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="671" y="284">Model</text>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="734" y="242" width="14" height="23" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="729" y="247" width="9" height="4" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="729" y="257" width="9" height="4" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="649" y="71" width="3" height="51" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="491" y="119" width="161" height="3" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="487" y="67" width="162" height="52" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="568" y="87">&lt;&lt;component&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="568" y="113">Presenter</text>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="631" y="71" width="14" height="23" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="626" y="76" width="9" height="4" />
+	<rect fill="#c0ffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="626" y="86" width="9" height="4" />
+</g>
+<g>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="24" y="49" width="97" height="19" />
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="24" y="69" width="246" height="94" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="147" y="80">Strava</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="528" y1="123" x2="519" y2="121" />
+	<line stroke="black" stroke-opacity="1" x1="528" y1="123" x2="526" y2="131" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="361" y1="249" x2="528" y2="123" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="586" y1="123" x2="583" y2="131" />
+	<line stroke="black" stroke-opacity="1" x1="586" y1="123" x2="594" y2="125" />
+	<line stroke-dasharray="4,4" stroke="black" stroke-opacity="1" x1="655" y1="237" x2="586" y2="123" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" x="306" y="125">&lt;&lt;system&gt;&gt; strava</text>
+</g>
+<path fill="none" stroke="black" stroke-width="1" stroke-opacity="1" d="M361.421,98.0186 a9,9 0 0,1 1.15766,17.9627" />
+<ellipse fill="none" stroke="black" stroke-width="1" stroke-opacity="1" cx="362" cy="107" rx="5" ry="5" />
+<g>
+	<line stroke="black" stroke-opacity="1" x1="486" y1="99" x2="371" y2="106" />
+</g>
+<g>
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="233" y="101" width="3" height="51" />
+	<rect fill="#cbcbcb" stroke="none" stroke-opacity="1" x="75" y="149" width="161" height="3" />
+	<rect fill="#ededed" stroke="black" stroke-width="1" stroke-opacity="1" x="71" y="97" width="162" height="52" />
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" text-anchor="middle" x="152" y="117">&lt;&lt;component&gt;&gt;</text>
+	<text font-family="Helvetica" font-size="8" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="152" y="143">RestAPI</text>
+	<rect fill="none" stroke="black" stroke-width="1" stroke-opacity="1" x="215" y="101" width="14" height="23" />
+	<rect fill="#ededed" stroke="black" stroke-width="1" stroke-opacity="1" x="210" y="106" width="9" height="4" />
+	<rect fill="#ededed" stroke="black" stroke-width="1" stroke-opacity="1" x="210" y="116" width="9" height="4" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="237" y1="117" x2="356" y2="107" />
+</g>
+</svg>

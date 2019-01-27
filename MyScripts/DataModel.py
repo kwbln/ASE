@@ -5,14 +5,12 @@ import os
 import pandas as pd
 import requests as r
 
-import strava_setup as strs
-
 
 class DataModel(object):
 
-    def __init__(self):
-        self.auth_url = 'https://www.strava.com/api/v3/athlete/activities?per_page=30'
-        self.auth_header = {'Authorization': strs.authorization}
+    def __init__(self, auth_url, auth_header):
+       self.auth_url = auth_url
+       self.auth_header = auth_header
 
     def get_activities(self):
         print("Hello user!")
