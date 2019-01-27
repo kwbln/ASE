@@ -1,13 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="">
+    <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="...">
+      <change afterPath="$PROJECT_DIR$/MyScripts/DataController.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyScripts/DataDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyScripts/DataModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyScripts/DataView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyScripts/data/activities.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyScripts/data/activities.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Component.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_UseCase.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_Class.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class141058.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class141314.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class148098.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class154754.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class161538.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class161666.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class161794.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class161922.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class162050.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class162178.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class162434.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class168962.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class175490.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/class175618.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/classdiagrams.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/classes_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/componentdiagrams.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig128130.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig128130.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig134658.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig134658.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig141186.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig141314.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig147842.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig147842.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig147970.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig147970.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig154498.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/fig154498.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index-withframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_60.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_65.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_67.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_69.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_71.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_72.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_73.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_76.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_77.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_78.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_80.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_82.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_83.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_84.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_85.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/index_86.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/navig.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/packages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/public_operations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/usecasediagrams.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Documentation/usecases.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/ActivityPresenter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/ActivityView.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/Colorscheme.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/GeneralView.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/HeatmapPresenter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/HeatmapView.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/Presenter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/SportType.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/UserPresenter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/UserView.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/activity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/club.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/country.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Generated Code/strava.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/128130.diagram" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/134658.diagram" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/134786" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/141186.diagram" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/141314.diagram" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/147842.diagram" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/147970.diagram" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/154498.diagram" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/161026.diagram" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/2.session" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/Views.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/cpp_includes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/generation_settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/idl_includes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/java_imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/python_imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/stereotypes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bouml/Views/tools" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyScripts/Preparator.py" beforeDir="false" afterPath="$PROJECT_DIR$/_files_/old_scripts/Preparator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyScripts/Presenter.py" beforeDir="false" afterPath="$PROJECT_DIR$/_files_/old_scripts/Presenter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyScripts/Tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/_files_/old_scripts/Tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyScripts/data/abc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyScripts/data/abc.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyScripts/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/_files_/old_scripts/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyScripts/map/my_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyScripts/map/my_map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_UML_/00_Component.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_UML_/00_Component2.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_UML_/01_UseCase.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_UML_/02_Class.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_UML_/Activity.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_UML_/Sequence.puml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs.csv" beforeDir="false" />
     </list>
-    <ignored path="MyScripts/setup.py" />
-    <ignored path="_files_/_1 JSON_/" />
     <ignored path=".idea/" />
+    <ignored path="_files_/" />
+    <manually-removed-from-ignored>
+      <directory path="_files_/_1 JSON_/" />
+    </manually-removed-from-ignored>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,67 +137,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyScripts/main.py">
+        <entry file="file://$PROJECT_DIR$/MyScripts/DataDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyScripts/DataController.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#1#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyScripts/strava_setup.py">
+        <entry file="file://$PROJECT_DIR$/MyScripts/DataView.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="306">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyScripts/setup.py">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="272">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
+        <entry file="file://$PROJECT_DIR$/MyScripts/DataModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyScripts/Tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyScripts/Presenter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyScripts/Preparator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-376">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="11" />
+            <state relative-caret-position="306">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,13 +225,17 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/MyScripts/.travis.yml" />
         <option value="$PROJECT_DIR$/sonar-project.properties" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-        <option value="$PROJECT_DIR$/MyScripts/Preparator.py" />
         <option value="$PROJECT_DIR$/MyScripts/Presenter.py" />
         <option value="$PROJECT_DIR$/MyScripts/_setup.py" />
         <option value="$PROJECT_DIR$/MyScripts/setup.py" />
         <option value="$PROJECT_DIR$/MyScripts/main.py" />
+        <option value="$PROJECT_DIR$/MyScripts/DataView.py" />
+        <option value="$PROJECT_DIR$/MyScripts/DataController.py" />
+        <option value="$PROJECT_DIR$/MyScripts/DataDemo.py" />
+        <option value="$PROJECT_DIR$/MyScripts/Preparator.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/MyScripts/DataModel.py" />
       </list>
     </option>
   </component>
@@ -151,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,41 +261,19 @@
             </path>
             <path>
               <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
-              <item name="_UML_" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
-              <item name="MyScripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
-              <item name="MyScripts" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python&#10;Cython" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_files_" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -205,16 +284,17 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kwagn\.PyCharm2018.3\config\scratches" />
-      <recent name="C:\Users\kwagn\Github\ASE" />
-      <recent name="C:\Users\kwagn\Github\ASE\MyScripts" />
-      <recent name="C:\Users\kwagn\Github\ASE\_files_\_2 Visuals_" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kwagn\Github\AdvSE\MyScripts" />
       <recent name="C:\Users\kwagn\Github\ASE\MyScripts\Classes" />
       <recent name="C:\Users\kwagn\Github\ASE\UML" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kwagn\Github\AdvSE\Bouml" />
+      <recent name="C:\Users\kwagn\Github\AdvSE\_files_\old_scripts" />
+      <recent name="C:\Users\kwagn\.PyCharm2018.3\config\scratches" />
+      <recent name="C:\Users\kwagn\Github\ASE" />
+      <recent name="C:\Users\kwagn\Github\ASE\MyScripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,23 +309,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="FirstFiles" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.DataDemo">
+    <configuration name="DataDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AdvSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyScripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\kwagn\Github\ASE\MyScripts\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyScripts/DataDemo.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -309,7 +386,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyScripts/Tests.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\kwagn\Github\AdvSE\_files_\old_scripts\Tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,7 +430,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyScripts/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\kwagn\Github\AdvSE\_files_\old_scripts\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,19 +440,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.FirstFiles" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.Tests" />
       <item itemvalue="Python.GetTheData" />
       <item itemvalue="Python.GetTheDataPart_2" />
+      <item itemvalue="Python.DataDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DataDemo" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.GetTheData" />
         <item itemvalue="Python.GetTheDataPart_2" />
         <item itemvalue="Python.Tests" />
-        <item itemvalue="Python.FirstFiles" />
       </list>
     </recent_temporary>
   </component>
@@ -414,14 +491,8 @@
       <workItem from="1547389300180" duration="330000" />
       <workItem from="1547389703386" duration="538000" />
       <workItem from="1548410645133" duration="9815000" />
-      <workItem from="1548421748001" duration="4184000" />
-    </task>
-    <task id="LOCAL-00003" summary="restart">
-      <created>1543760657291</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1543760657291</updated>
+      <workItem from="1548421748001" duration="4658000" />
+      <workItem from="1548588981822" duration="4366000" />
     </task>
     <task id="LOCAL-00004" summary="restart">
       <created>1543761485191</created>
@@ -759,7 +830,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548491053997</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="...">
+      <created>1548491404390</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1548491404390</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -769,18 +847,17 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66827000" />
+    <option name="totallyTimeSpent" value="71667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6751055" visible="true" weight="0.19530201" />
-      <window_info id="Structure" order="1" sideWeight="0.32489452" side_tool="true" visible="true" weight="0.19530201" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.19798657" />
+      <window_info id="Structure" order="1" sideWeight="0.32911393" side_tool="true" weight="0.19798657" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49597314" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.752349" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49530202" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.752349" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -788,44 +865,19 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24765101" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.504698" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49597314" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.85973155" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.8590604" weight="0.3286119" />
       <window_info anchor="bottom" id="YouTrack" order="14" sideWeight="0.84563756" weight="0.3243626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.4957806" visible="true" weight="0.2590604" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49156117" visible="true" weight="0.2590604" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="PlantUML" order="5" weight="0.42348993" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="6" sideWeight="0.5042194" side_tool="true" visible="true" weight="0.2590604" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="6" sideWeight="0.5084388" side_tool="true" visible="true" weight="0.2590604" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6835443" visible="true" weight="0.27114093" />
-      <window_info id="Structure" order="1" sideWeight="0.3164557" side_tool="true" visible="true" weight="0.27114093" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="PlantUML" order="5" weight="0.42348993" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -996,13 +1048,6 @@
     <entry file="file://$PROJECT_DIR$/MyScripts/abc.csv" />
     <entry file="file://$PROJECT_DIR$/MyScripts/main_2.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.pyx" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyScripts/activities_data.json" />
     <entry file="file://$PROJECT_DIR$/MyScripts/ClassTest.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/GetTheData.py">
@@ -1022,55 +1067,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyScripts/Presenter.py">
+    <entry file="file://$PROJECT_DIR$/MyScripts/strava_setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyScripts/Tests.py">
+    <entry file="file://$PROJECT_DIR$/_files_/old_scripts/Tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyScripts/main.py">
+    <entry file="file://$PROJECT_DIR$/Bouml/Views/128130.diagram">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScripts/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_files_/old_scripts/Presenter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/folium/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/folium/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="48" column="41" lean-forward="true" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_files_/old_scripts/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="72" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyScripts/setup.py">
+    <entry file="file://$PROJECT_DIR$/MyScripts/DataDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyScripts/strava_setup.py">
+    <entry file="file://$PROJECT_DIR$/MyScripts/DataController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#1#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyScripts/Preparator.py">
+    <entry file="file://$PROJECT_DIR$/MyScripts/DataView.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-376">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="11" />
+        <state relative-caret-position="306">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_files_/old_scripts/Preparator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScripts/DataModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
