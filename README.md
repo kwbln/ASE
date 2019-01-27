@@ -18,6 +18,8 @@ The contribution in Moodle is just a Link to GitHub in the comment section (@edl
 
 The complete documentation must be found in the GitHub doc (e.g. ReadMe or Wiki). It should explain also B in three pages.
 
+![Travis CI Status](https://travis-ci.com/kwbln/AdvSE.svg?branch=master)
+
 ![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=alert_status)
 
 ![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=kwbln_ASE&metric=bugs)
