@@ -1,6 +1,7 @@
-from setuptools import setup, find_packages
-
-PACKAGES = find_packages()
+try:
+    from setuptools import setup, find_packages
+except ImportError:
+    from distutils.core import setup, find_packages
 
 opts = dict(name='MyScripts',
             maintainer='Kerstin Wagner',
@@ -9,7 +10,7 @@ opts = dict(name='MyScripts',
             long_description='Simple example of a Travis setup',
             url='https://github.com/kwbln/AdvSE',
             download_url='https://github.com/kwbln/AdvSE',
-            packages=PACKAGES)
+            packages=find_packages())
 
 if __name__ == '__main__':
     setup(**opts)

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="_files_/" />
@@ -19,7 +19,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ASE$FirstFiles.coverage" NAME="FirstFiles Coverage Results" MODIFIED="1543762456748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
-    <SUITE FILE_PATH="coverage/AdvSE$main.coverage" NAME="main Coverage Results" MODIFIED="1548490774911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
+    <SUITE FILE_PATH="coverage/AdvSE$main.coverage" NAME="main Coverage Results" MODIFIED="1548600922371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
     <SUITE FILE_PATH="coverage/ASE$main.coverage" NAME="main Coverage Results" MODIFIED="1546889770620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
     <SUITE FILE_PATH="coverage/ASE$Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1544441943689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
     <SUITE FILE_PATH="coverage/ASE$GetTheData.coverage" NAME="GetTheData Coverage Results" MODIFIED="1544442609282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
@@ -49,20 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="51">
+              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="253">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -131,7 +131,6 @@
         <option value="$PROJECT_DIR$/MyScripts/GetTheDataPart_2.py" />
         <option value="$PROJECT_DIR$/MyScripts/GetTheData.py" />
         <option value="$PROJECT_DIR$/Bouml/Generated Code/Presenter.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/MyScripts/.travis.yml" />
         <option value="$PROJECT_DIR$/sonar-project.properties" />
@@ -147,6 +146,7 @@
         <option value="$PROJECT_DIR$/MyScripts/setup.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -230,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.setup">
+  <component name="RunManager" selected="Python.DataDemo">
     <configuration name="DataDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AdvSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -366,9 +366,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.setup" />
         <item itemvalue="Python.DataDemo" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.setup" />
         <item itemvalue="Python.GetTheData" />
         <item itemvalue="Python.GetTheDataPart_2" />
       </list>
@@ -410,14 +410,7 @@
       <workItem from="1547389703386" duration="538000" />
       <workItem from="1548410645133" duration="9815000" />
       <workItem from="1548421748001" duration="4658000" />
-      <workItem from="1548588981822" duration="9669000" />
-    </task>
-    <task id="LOCAL-00008" summary="restart">
-      <created>1544086719666</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1544086719666</updated>
+      <workItem from="1548588981822" duration="10755000" />
     </task>
     <task id="LOCAL-00009" summary="restart">
       <created>1544086828504</created>
@@ -755,7 +748,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548599191286</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="...">
+      <created>1548600565776</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1548600565776</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -765,18 +765,18 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76970000" />
+    <option name="totallyTimeSpent" value="78056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.19798657" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.19798657" />
       <window_info id="Structure" order="1" sideWeight="0.32911393" side_tool="true" weight="0.19798657" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49530202" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.752349" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7516779" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -784,10 +784,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.14161074" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.14228188" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49597314" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.85838926" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.8577181" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="YouTrack" order="14" sideWeight="0.84563756" weight="0.3243626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1084,13 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1100,8 +1093,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        <state relative-caret-position="253">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
         </state>
       </provider>
     </entry>
