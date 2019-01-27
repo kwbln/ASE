@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="...">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyScripts/DataController.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyScripts/DataController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyScripts/DataDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyScripts/DataDemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyScripts/DataModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyScripts/DataModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyScripts/DataView.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyScripts/DataView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyScripts/map/my_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyScripts/map/my_map.html" afterDir="false" />
+    <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyScripts/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyScripts/setup.py" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="_files_/" />
@@ -31,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyScripts/DataDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="27" selection-end-column="27" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -48,6 +44,24 @@
               <folding>
                 <element signature="e#1#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyScripts/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -113,15 +127,15 @@
         <option value="$PROJECT_DIR$/sonar-project.properties" />
         <option value="$PROJECT_DIR$/MyScripts/Presenter.py" />
         <option value="$PROJECT_DIR$/MyScripts/_setup.py" />
-        <option value="$PROJECT_DIR$/MyScripts/setup.py" />
         <option value="$PROJECT_DIR$/MyScripts/main.py" />
         <option value="$PROJECT_DIR$/MyScripts/Preparator.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/MyScripts/DataView.py" />
         <option value="$PROJECT_DIR$/MyScripts/DataController.py" />
         <option value="$PROJECT_DIR$/MyScripts/DataModel.py" />
         <option value="$PROJECT_DIR$/MyScripts/DataDemo.py" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/MyScripts/setup.py" />
       </list>
     </option>
   </component>
@@ -149,17 +163,6 @@
               <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
               <item name="MyScripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
-              <item name="UML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
-              <item name="UML" type="462c0819:PsiDirectoryNode" />
-              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
@@ -399,14 +402,7 @@
       <workItem from="1547389703386" duration="538000" />
       <workItem from="1548410645133" duration="9815000" />
       <workItem from="1548421748001" duration="4658000" />
-      <workItem from="1548588981822" duration="7594000" />
-    </task>
-    <task id="LOCAL-00006" summary="restart">
-      <created>1543762563405</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1543762563405</updated>
+      <workItem from="1548588981822" duration="8348000" />
     </task>
     <task id="LOCAL-00007" summary="restart">
       <created>1543763324176</created>
@@ -744,7 +740,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548596718700</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="...">
+      <created>1548598408559</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1548598408559</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -754,10 +757,11 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74895000" />
+    <option name="totallyTimeSpent" value="75649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.19798657" />
       <window_info id="Structure" order="1" sideWeight="0.32911393" side_tool="true" weight="0.19798657" />
@@ -991,13 +995,6 @@
     <entry file="file://$PROJECT_DIR$/Bouml/Views/128130.diagram">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyScripts/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_files_/old_scripts/Presenter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1039,13 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -1082,8 +1072,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MyScripts/DataDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScripts/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
