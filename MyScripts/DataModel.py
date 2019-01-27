@@ -11,7 +11,8 @@ import strava_setup as strs
 class DataModel(object):
 
     def __init__(self):
-        self.authheader = {'Authorization': strs.authorization}
+        self.auth_url = 'https://www.strava.com/api/v3/athlete/activities?per_page=30'
+        self.auth_header = {'Authorization': strs.authorization}
 
     def get_activities(self):
         print("Hello user!")
@@ -30,8 +31,8 @@ class DataModel(object):
 
         if os.path.isfile('./data/activities.json') == False:
             print("generate json files")
-            ath_url = 'https://www.strava.com/api/v3/athlete/activities?per_page=30'
-            json_data = r.get(ath_url, headers=self.authheader).json()
+
+            json_data = r.get(self.auth_url, headers=self.auth_header).json()
 
             with codecs.open('./data/activities.json', 'w', 'utf8') as f:
                 f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
@@ -47,4 +48,5 @@ class DataModel(object):
         else:
             print("xlsx already available")
 
-        return pd.read_excel('./data/activities.xlsx').dropna(subset=['start_latitude', 'start_longitude'], how='any')
+        return pd.read_excel('./data/activities.xlsx') \
+            .dropna(subset=['start_latitude', 'start_longitude'], how='any')

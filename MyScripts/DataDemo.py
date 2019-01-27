@@ -7,9 +7,7 @@ class DataDemo(object):
         pass
 
     def main(self):
-        my_dc = dc.DataController()
-        my_dc.update_view()
+        dc.DataController().update_view()
 
 
-my_demo = DataDemo()
-my_demo.main()
+DataDemo().main()

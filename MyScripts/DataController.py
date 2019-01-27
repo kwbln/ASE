@@ -8,8 +8,12 @@ class DataController(object):
         pass
 
     def update_view(self):
-        my_data = dm.DataModel()
-        my_df = my_data.get_activities()
 
-        my_dv = dv.DataView()
-        my_dv.get_map(my_df)
+        #my_data = dm.DataModel()
+        #my_df = my_data.get_activities()
+
+        #my_dv = dv.DataView(my_df)
+        #my_dv.get_map()
+
+        dv.DataView(dm.DataModel().get_activities())
+
