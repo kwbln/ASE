@@ -7,9 +7,9 @@ class DataController(object):
     def __init__(self):
         pass
 
-    def updateView(self):
+    def update_view(self):
         my_data = dm.DataModel()
-        my_df = my_data.getActivities()
+        my_df = my_data.get_activities()
 
         my_dv = dv.DataView()
-        my_dv.getMap(my_df)
+        my_dv.get_map(my_df)

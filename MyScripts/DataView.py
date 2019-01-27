@@ -5,7 +5,7 @@ class DataView(object):
     def __init__(self):
         self.center = [52.5348302, 13.4720917]
 
-    def getMap(self, df):
+    def get_map(self, df):
         m = folium.Map(location=self.center, tiles='Stamen Terrain', zoom_start=12)
 
         for index, row in df.iterrows():
@@ -16,8 +16,8 @@ class DataView(object):
 
         print('map saved')
 
-    def getHeatmap(self):
+    def get_heatmap(self):
         pass
 
-    def getActivityChart(self):
+    def get_chart(self):
         pass

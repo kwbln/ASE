@@ -1,10 +1,15 @@
 import DataController as dc
 
 
-def main():
+class DataDemo(object):
 
-    my_dc = dc.DataController()
-    my_dc.updateView()
+    def __init__(self):
+        pass
+
+    def main(self):
+        my_dc = dc.DataController()
+        my_dc.update_view()
 
 
-main()
+my_demo = DataDemo()
+my_demo.main()
