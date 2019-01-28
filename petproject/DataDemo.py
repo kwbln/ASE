@@ -11,8 +11,3 @@ class DataDemo(object):
 
 
 DataDemo().main()
-
-# def main():
-#    dc.DataController().update_view()
-#
-# main()
