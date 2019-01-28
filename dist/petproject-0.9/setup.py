@@ -2,11 +2,11 @@ from distutils.core import setup
 
 
 def readme():
-    with open('README.md') as f:
+    with open('README.rst') as f:
         return f.read()
 
 
-files = ['things/*']
+files = ['files/*']
 
 setup(name='petproject',
       version='0.9',

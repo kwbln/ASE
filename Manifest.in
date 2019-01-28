@@ -1,2 +1,2 @@
-include runner README.md
-recursive-include petproject/things *
+include runner README.rst
+recursive-include petproject/files *

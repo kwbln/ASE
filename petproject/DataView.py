@@ -13,7 +13,7 @@ class DataView(object):
             folium.Marker(location=[row['start_latitude'], row['start_longitude']],
                           icon=folium.Icon(color='darkred', icon='circle')).add_to(m)
 
-        m.save('./things/map/my_map.html')
+        m.save('./files/map/my_map.html')
 
         print('map saved')
 
