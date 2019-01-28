@@ -2,39 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MANIFEST" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/128130.diagram" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/134658.diagram" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/134786" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/141186.diagram" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/141314" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/141314.diagram" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/141442" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/147842.diagram" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/147970.diagram" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/154498.diagram" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/161026.diagram" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/167554.diagram" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/2.session" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/Diagrams.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/cpp_includes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/generation_settings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/idl_includes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/java_imports" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/python_imports" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/stereotypes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/Diagrams/tools" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petproject/.scannerwork/.sonar_lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petproject/.scannerwork/report-task.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petproject/DataController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petproject/DataDemo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petproject/DataModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petproject/DataView.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petproject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petproject/strava_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petproject/things/data/activities.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petproject/things/data/activities.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petproject/things/map/my_map.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path=".idea/" />
@@ -77,11 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runner">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -145,11 +121,11 @@
         <option value="$PROJECT_DIR$/MyScripts/DataController.py" />
         <option value="$PROJECT_DIR$/package/DataView.py" />
         <option value="$PROJECT_DIR$/package/DataModel.py" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/MyPetProject/DataController.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/Manifest.in" />
         <option value="$PROJECT_DIR$/runner" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -430,21 +406,7 @@
       <workItem from="1548588981822" duration="17956000" />
       <workItem from="1548651902554" duration="128000" />
       <workItem from="1548654549155" duration="3057000" />
-      <workItem from="1548657684512" duration="2903000" />
-    </task>
-    <task id="LOCAL-00015" summary="integrate sonarcube in travis">
-      <created>1546860328783</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1546860328783</updated>
-    </task>
-    <task id="LOCAL-00016" summary="integrate sonarcube in travis">
-      <created>1546860377813</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1546860377813</updated>
+      <workItem from="1548657684512" duration="3284000" />
     </task>
     <task id="LOCAL-00017" summary="integrate sonarcube in travis">
       <created>1546861349740</created>
@@ -775,7 +737,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548660932052</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="local build is ok now">
+      <created>1548661825957</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1548661825957</updated>
+    </task>
+    <task id="LOCAL-00065" summary="changed package name -&gt; petproject">
+      <created>1548661978117</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1548661978117</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -785,11 +761,10 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91345000" />
+    <option name="totallyTimeSpent" value="91726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.20604026" />
       <window_info id="Structure" order="1" sideWeight="0.32911393" side_tool="true" weight="0.19798657" />
@@ -871,7 +846,8 @@
     <MESSAGE value="integrate sonarcube in travis" />
     <MESSAGE value="..." />
     <MESSAGE value="local build is ok now" />
-    <option name="LAST_COMMIT_MESSAGE" value="local build is ok now" />
+    <MESSAGE value="changed package name -&gt; petproject" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed package name -&gt; petproject" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/UML/02_Class.puml" />
@@ -982,13 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyPetProject/DataModel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -1045,6 +1014,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
