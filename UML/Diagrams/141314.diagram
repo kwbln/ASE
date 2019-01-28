@@ -1,0 +1,15 @@
+format 221
+
+packagecanvas 128002 
+  package_ref 128002 // Model
+    xyzwh 151 145 2000 65 81
+end
+packagecanvas 128130 
+  package_ref 128130 // View
+    xyzwh 654 157 2000 65 81
+end
+packagecanvas 128258 
+  package_ref 128258 // Presenter
+    xyzwh 365 62 2000 65 81
+end
+end

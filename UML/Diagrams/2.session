@@ -1,0 +1,19 @@
+window_sizes 1920 1001 450 1464 821 128
+cleanlooks_style
+diagrams
+  active  classdiagram_ref 167554 // ClassD
+    1464 821 100 A4 0 0
+end
+selected classrelation_ref 162946 // (<<uses>>)
+open
+  class_ref 182018 // DataController
+  class_ref 182146 // DataDemo
+  operation_ref 148354 // get_activities
+  operation_ref 155394 // get_chart
+  component_ref 128002 // Model
+  component_ref 128130 // View
+  component_ref 134914 // Demo
+  deploymentview_ref 128002 // ClassView
+  classview_ref 141058 // StravaClasses
+end
+end

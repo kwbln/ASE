@@ -1,0 +1,103 @@
+format 221
+
+classcanvas 128002 class_ref 182018 // DataController
+  classdiagramsettings member_max_width 0 end
+  xyz 253.643 134.5 2000
+end
+classcanvas 128130 class_ref 182146 // DataDemo
+  classdiagramsettings member_max_width 0 end
+  xyz 264.714 38.5 2000
+end
+classcanvas 128258 class_ref 182274 // DataModel
+  classdiagramsettings member_max_width 0 end
+  xyz 259.679 402.286 2000
+end
+classcanvas 128386 class_ref 182402 // DataView
+  classdiagramsettings member_max_width 0 end
+  xyz 448.714 146.107 2000
+end
+classcanvas 129666 class_ref 188930 // folium
+  classdiagramsettings member_max_width 0 end
+  xyz 474.714 275.286 2000
+end
+classcanvas 130690 class_ref 189058 // strava_setup
+  classdiagramsettings member_max_width 0 end
+  xyz 65.6429 169.357 2000
+end
+classcanvas 130946 class_ref 189186 // json
+  classdiagramsettings member_max_width 0 end
+  xyz 436.107 358.357 2000
+end
+classcanvas 131074 class_ref 189314 // codecs
+  classdiagramsettings member_max_width 0 end
+  xyz 442.643 408.286 2000
+end
+classcanvas 131202 class_ref 189442 // os
+  classdiagramsettings member_max_width 0 end
+  xyz 281.679 496.5 2000
+end
+classcanvas 131330 class_ref 189570 // pandas
+  classdiagramsettings member_max_width 0 end
+  xyz 131.393 328.643 2000
+end
+classcanvas 131458 class_ref 189698 // requests
+  classdiagramsettings member_max_width 0 end
+  xyz 122.929 405.286 2000
+end
+relationcanvas 128642 relation_ref 162050 // <uses>
+  from ref 128130 z 2001 label "<uses>" italic max_width 255 xyz 230 101 2001 to ref 128002
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 128770 relation_ref 162178 // <updates>
+  decenter_end 537
+  from ref 128002 z 2001 label "<updates>" italic max_width 255 xyz 378 175 2001 to ref 128386
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130562 relation_ref 169090 // <dependency>
+  decenter_end 432
+  from ref 128386 z 2001 stereotype "<<import>>" xyz 459 247 3000 to ref 129666
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 130818 relation_ref 169218 // <dependency>
+  from ref 128002 z 2001 stereotype "<<import>>" xyz 169 185 3000 to ref 130690
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 132226 relation_ref 169986 // <dependency>
+  from ref 128258 z 2001 stereotype "<<import>>" xyz 188 425 3000 to ref 131458
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 132354 relation_ref 170114 // <dependency>
+  decenter_begin 536
+  decenter_end 577
+  from ref 128258 z 2001 stereotype "<<import>>" xyz 273 474 3000 to ref 131202
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 132482 relation_ref 170242 // <dependency>
+  decenter_begin 104
+  decenter_end 777
+  from ref 128258 z 2001 stereotype "<<import>>" xyz 194 379.5 3000 to ref 131330
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 132610 relation_ref 170370 // <dependency>
+  from ref 128258 z 2001 stereotype "<<import>>" xyz 363 428 3000 to ref 131074
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 133378 relation_ref 170498 // <dependency>
+  from ref 128258 z 2001 stereotype "<<import>>" xyz 360 397 3000 to ref 130946
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+relationcanvas 133506 relation_ref 161922 // <<uses>>
+  from ref 128002 z 2001 label "<<uses>>" italic max_width 255 xyz 275 301 3000 to ref 128258
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+end

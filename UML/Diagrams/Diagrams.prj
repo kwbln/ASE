@@ -1,0 +1,762 @@
+format 221
+"Diagrams"
+  revision 25
+  modified_by 2 "kwagn"
+  python_root_dir "C:\\Users\\kwagn\\Github\\AdvSE\\UML\\GeneratedExampleCode\\"
+
+
+  
+  // class settings
+  default_attribute_visibility private default_relation_visibility private default_operation_visibility public
+  
+  classdiagramsettings draw_all_relations yes hide_attributes no hide_operations no hide_getset_operations no hide_ports no show_members_full_definition no show_members_visibility no show_members_stereotype no show_members_context no show_members_multiplicity no show_members_initialization no show_attribute_modifiers no member_max_width 127 show_parameter_dir yes show_parameter_name yes package_name_in_tab no class_drawing_mode natural drawing_language uml show_context_mode no auto_label_position yes show_relation_modifiers no show_relation_visibility no show_infonote no shadow yes gradient none show_stereotype_properties no end
+  
+  classcompositediagramsettings auto_label_position yes draw_all_relations yes shadow yes gradient none end
+  
+  usecasediagramsettings package_name_in_tab no show_context_mode no auto_label_position yes draw_all_relations yes class_drawing_mode actor shadow yes gradient none show_stereotype_properties no end
+  
+  sequencediagramsettings show_full_operations_definition no show_class_of_operation no write_horizontally yes instances_drawing_mode natural drawing_language uml draw_all_relations yes shadow yes gradient none show_stereotype_properties no show_class_context_mode no show_msg_context_mode no end
+  
+  collaborationdiagramsettings show_full_operations_definition no show_class_of_operation no show_hierarchical_rank no write_horizontally yes instances_drawing_mode natural drawing_language uml package_name_in_tab no show_class_pack_context_mode no show_msg_context_mode no draw_all_relations yes shadow yes gradient none show_stereotype_properties no end
+  
+  objectdiagramsettings write_horizontally yes package_name_in_tab no show_class_pack_context_mode no auto_label_position yes draw_all_relations yes shadow yes gradient none show_stereotype_properties no end
+  
+  objectcompositediagramsettings auto_label_position yes draw_all_relations yes shadow yes gradient none end
+  
+  componentdiagramsettings package_name_in_tab no show_context_mode no auto_label_position yes draw_all_relations yes shadow yes gradient none
+   draw_component_as_icon no show_component_req_prov no show_component_rea no show_stereotype_properties no end
+  
+  deploymentdiagramsettings package_name_in_tab no show_context_mode no write_horizontally yes auto_label_position yes draw_all_relations yes shadow yes gradient none
+   draw_component_as_icon no show_component_req_prov no show_component_rea no show_stereotype_properties no end
+  
+  statediagramsettings package_name_in_tab no show_context_mode no auto_label_position yes write_label_horizontally yes show_trans_definition no draw_all_relations yes shadow yes gradient none
+   show_activities yes region_horizontally yes drawing_language uml show_stereotype_properties no end
+  
+  activitydiagramsettings package_name_in_tab no show_context_mode no show_opaque_action_definition no auto_label_position yes write_label_horizontally no draw_all_relations yes shadow yes gradient none
+   show_infonote yes drawing_language uml show_stereotype_properties no end
+  
+  class_color yellow duration_color transparent continuation_color gray note_color blue fragment_color transparent subject_color transparent usecase_color yellow package_color transparent component_color green artifact_color green deploymentnode_color gray state_color yellow stateaction_color transparent activity_color transparent activityregion_color transparent activitypartition_color transparent activityaction_color transparent parameterpin_color white generalization_color black 
+  dpi 96
+  font_size 8
+  diagram_format A4
+
+  image_root_dir "C:\\Users\\kwagn\\Github\\AdvSE\\UML"
+
+
+  mark_for_import
+  
+  ncouples 1
+  key "html dir" value "C:\\Users\\kwagn\\Github\\AdvSE\\UML\\Documentation/"
+  usecaseview 134530 "Use Cases"
+    
+    usecasediagramsettings end
+    
+    sequencediagramsettings end
+    
+    collaborationdiagramsettings end
+    
+    classdiagramsettings member_max_width 0 end
+    
+    classcompositediagramsettings end
+    
+    objectdiagramsettings end
+    
+    objectcompositediagramsettings end
+    
+    statediagramsettings
+     end
+    
+    activitydiagramsettings
+     end
+    usecasediagram 128130 "UseCaseD"
+      usecasediagramsettings draw_all_relations no end
+      size A4
+    end
+
+    usecase 141058 "Analyze Athlet's Data"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 128002
+	-_->
+	  stereotype "include"
+	  on usecase_ref 141186 // Get Athlet's Data
+      end
+
+      simplerelation 141570
+	-_->
+	  on usecase_ref 147970 // Generate Views
+      end
+
+      simplerelation 142338
+	-_->
+	  stereotype "include"
+	  on usecase_ref 147970 // Generate Views
+      end
+
+      simplerelation 149122
+	-_->
+	  stereotype "include"
+	  on usecase_ref 141186 // Get Athlet's Data
+      end
+    end
+
+    usecase 141186 "Get Athlet's Data"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 147970 "Generate Views"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+    end
+
+    usecase 148098 "Generate Heatmap"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 142466
+	---|>
+	  on usecase_ref 147970 // Generate Views
+      end
+    end
+
+    usecase 148226 "Generate Activity Chart"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 142594
+	---|>
+	  on usecase_ref 147970 // Generate Views
+      end
+    end
+
+    usecase 154754 "Generate Map"
+      
+      usecasediagramsettings end
+      
+      sequencediagramsettings end
+      
+      collaborationdiagramsettings end
+      
+      classdiagramsettings member_max_width 0 end
+      
+      classcompositediagramsettings end
+      
+      objectdiagramsettings end
+      
+      objectcompositediagramsettings end
+      
+      statediagramsettings
+       end
+      
+      activitydiagramsettings
+       end
+      simplerelation 149250
+	---|>
+	  on usecase_ref 147970 // Generate Views
+      end
+    end
+  end
+
+  classview 128002 "Classes"
+    
+    classdiagramsettings member_max_width 0 end
+    
+    classcompositediagramsettings end
+    
+    collaborationdiagramsettings end
+    
+    objectdiagramsettings end
+    
+    objectcompositediagramsettings end
+    
+    sequencediagramsettings end
+    
+    statediagramsettings
+     end
+    
+    
+    activitydiagramsettings
+     end
+    associated_deployment_view deploymentview_ref 128002 // ClassView
+    classdiagram 167554 "ClassD"
+      classdiagramsettings draw_all_relations no member_max_width 0 end
+      size A4
+    end
+
+    class 182018 "DataController"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      attribute 128002 "center"
+	private explicit_type "geocoordinate"
+	init_value "[52.5348302, 13.4720917]"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl "${comment}${self}${name} = ${value}
+"
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      attribute 128258 "auth_url"
+	private explicit_type "string"
+	init_value "'https://www.strava.com/api/v3/athlete/activities?per_page=30'"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl "${comment}${self}${name} = ${value}
+"
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 162946 // (<<uses>>)
+	relation 161922 ---> name "<<uses>>"
+	  a role_name "" private
+	    python "${comment}${self}${name} = ${value}
+"
+	    classrelation_ref 162946 // (<<uses>>)
+	  b parent class_ref 182274 // DataModel
+      end
+
+      classrelation 163202 // (<updates>)
+	relation 162178 ---> name "<updates>"
+	  a role_name "" private
+	    python "${comment}${self}${name} = ${value}
+"
+	    classrelation_ref 163202 // (<updates>)
+	  b parent class_ref 182402 // DataView
+      end
+
+      operation 148610 "update_view"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${)}:
+${docstring}${body}
+"
+	
+      end
+
+      attribute 128386 "auth_header"
+	private explicit_type "string"
+	init_value "{'Authorization': strs.authorization}"
+	cpp_decl ""
+	java_decl ""
+	php_decl ""
+	python_decl "${comment}${self}${name} = ${value}
+"
+	idl_decl ""
+	mysql_decl ""
+	MysqlColumn
+      end
+
+      classrelation 170242 // <dependency>
+	relation 169218 -_->
+	  stereotype "import"
+	  a public
+	    python "${type}"
+	    classrelation_ref 170242 // <dependency>
+	  b parent class_ref 189058 // strava_setup
+      end
+    end
+
+    class 182146 "DataDemo"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      classrelation 163074 // (<uses>)
+	relation 162050 ---> name "<uses>"
+	  a role_name "" private
+	    python "${comment}${self}${name} = ${value}
+"
+	    classrelation_ref 163074 // (<uses>)
+	  b parent class_ref 182018 // DataController
+      end
+
+      operation 148226 "main"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${)}:
+${docstring}${body}
+"
+	
+      end
+    end
+
+    class 182274 "DataModel"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 148354 "get_activities"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${)}:
+${docstring}${body}
+"
+	
+      end
+
+      classrelation 171010 // <dependency>
+	relation 169986 -_->
+	  stereotype "import"
+	  a public
+	    python "${type}"
+	    classrelation_ref 171010 // <dependency>
+	  b parent class_ref 189698 // requests
+      end
+
+      classrelation 171138 // <dependency>
+	relation 170114 -_->
+	  stereotype "import"
+	  a public
+	    python "${type}"
+	    classrelation_ref 171138 // <dependency>
+	  b parent class_ref 189442 // os
+      end
+
+      classrelation 171266 // <dependency>
+	relation 170242 -_->
+	  stereotype "import"
+	  a public
+	    python "${type}"
+	    classrelation_ref 171266 // <dependency>
+	  b parent class_ref 189570 // pandas
+      end
+
+      classrelation 171394 // <dependency>
+	relation 170370 -_->
+	  stereotype "import"
+	  a public
+	    python "${type}"
+	    classrelation_ref 171394 // <dependency>
+	  b parent class_ref 189314 // codecs
+      end
+
+      classrelation 171522 // <dependency>
+	relation 170498 -_->
+	  stereotype "import"
+	  a public
+	    python "${type}"
+	    classrelation_ref 171522 // <dependency>
+	  b parent class_ref 189186 // json
+      end
+    end
+
+    class 182402 "DataView"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+      operation 148738 "get_map"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${p0}${v0}${)}:
+${docstring}${body}
+"
+	
+	comment "creates a map with some gps marker"
+      end
+
+      operation 155266 "get_heatmap"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${p0}${v0}${)}:
+${docstring}${body}
+"
+	
+      end
+
+      operation 155394 "get_chart"
+	public explicit_return_type ""
+	nparams 0
+	
+	
+	
+	python_def "${@}${static}${abstract}def ${name}${(}${p0}${v0}${)}:
+${docstring}${body}
+"
+	
+      end
+
+      classrelation 170114 // <dependency>
+	relation 169090 -_->
+	  stereotype "import"
+	  a public
+	    python "${type}"
+	    classrelation_ref 170114 // <dependency>
+	  b parent class_ref 188930 // folium
+      end
+    end
+
+    class 188930 "folium"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 189058 "strava_setup"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 189186 "json"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 189314 "codecs"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 189442 "os"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 189570 "pandas"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+
+    class 189698 "requests"
+      visibility package 
+      cpp_decl ""
+      java_decl ""
+      php_decl ""
+      python_2_2 python_decl "class ${name}${inherit}:
+${docstring}${members}
+"
+      idl_decl ""
+      explicit_switch_type ""
+      mysql_decl ""
+      
+    end
+  end
+
+  componentview 128002 "Components"
+    //component diagram settings
+    componentdiagramsettings
+     end
+    componentdiagram 154498 "ComD"
+      componentdiagramsettings
+       end
+      size A4
+    end
+
+    component 128002 "Model"
+      provided_classes
+	class_ref 182274 // DataModel
+      end
+      required_classes
+	class_ref 182018 // DataController
+      end
+      simplerelation 135042
+	-_->
+	  on component_ref 128258 // Controller
+      end
+    end
+
+    component 128130 "View"
+      provided_classes
+	class_ref 182402 // DataView
+      end
+      required_classes
+	class_ref 182018 // DataController
+      end
+      simplerelation 134914
+	-_->
+	  on component_ref 128258 // Controller
+      end
+    end
+
+    component 128258 "Controller"
+      provided_classes
+	class_ref 182018 // DataController
+      end
+      required_classes
+	class_ref 141314 // <<system>> strava
+      end
+    end
+
+    component 128386 "RestAPI"
+      provided_classes
+	class_ref 141314 // <<system>> strava
+      end
+    end
+
+    component 134914 "Demo"
+      provided_classes
+	class_ref 182146 // DataDemo
+      end
+      required_classes
+	class_ref 182018 // DataController
+      end
+      simplerelation 155778
+	-_->
+	  on component_ref 128258 // Controller
+      end
+    end
+  end
+
+  deploymentview 128002 "ClassView"
+    //deployment diagram settings
+    deploymentdiagramsettings
+     end
+    artifact 129666 "Strava"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+      end
+    end
+
+    artifact 129794 "<<system>> strava"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 141314 // <<system>> strava
+      end
+    end
+
+    artifact 142978 "DataController"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 182018 // DataController
+      end
+    end
+
+    artifact 143106 "DataDemo"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 182146 // DataDemo
+      end
+    end
+
+    artifact 143234 "DataModel"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 182274 // DataModel
+      end
+    end
+
+    artifact 143362 "DataView"
+      stereotype "source"
+      python_src "${comment}
+${import}
+${definition}"
+      associated_elems
+	class_ref 182402 // DataView
+      end
+    end
+  end
+
+  package_ref 134786 // Strava
+
+  package_ref 141314 // folium
+
+  package_ref 141442 // codecs
+end

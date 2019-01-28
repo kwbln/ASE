@@ -1,0 +1,42 @@
+format 221
+
+componentcanvas 128002 component_ref 128002 // Model
+  
+  xyzwh 590 238 2000 167 57
+end
+componentcanvas 128130 component_ref 128130 // View
+  
+  xyzwh 243 250 2000 167 57
+end
+componentcanvas 128258 component_ref 128258 // Controller
+  
+  xyzwh 453 158 2000 167 57
+end
+packagecanvas 128386 
+  package_ref 134786 // Strava
+    xyzwh 24 49 2000 247 115
+end
+arrowjunctioncanvas 128514 class_ref 141314 // <<system>> strava
+  xyz 329 137 3005 label_xy 282 156
+componentcanvas 128770 component_ref 128386 // RestAPI
+  
+  color lightgray xyzwh 71 97 3010 167 57
+end
+componentcanvas 129282 component_ref 134914 // Demo
+  
+  xyzwh 452 48 2005 167 57
+end
+line 128898 ---O
+  from ref 128770 z 3011 to ref 128514
+simplerelationcanvas 129026 simplerelation_ref 134914
+  from ref 128130 z 2001 to ref 128258
+end
+simplerelationcanvas 129154 simplerelation_ref 135042
+  from ref 128002 z 2001 to ref 128258
+end
+line 129410 ---(
+  from ref 128258 z 3006 to ref 128514
+simplerelationcanvas 129538 simplerelation_ref 155778
+  from ref 129282 z 2006 to ref 128258
+end
+end
