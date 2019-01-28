@@ -12,9 +12,7 @@ env:
 
 addons:
   sonarcloud:
-    organization: 'kwbln-github' # the key of the org you chose at step #3
-  #    token:
-  #      secure: "" # encrypted value of your token
+    organization: 'kwbln-github'
 
 before_install:
   - pip install -r requirements.txt
@@ -28,4 +26,3 @@ before_script:
 
 script:
   - python runner
-  #- python petproject/DataDemo.py
