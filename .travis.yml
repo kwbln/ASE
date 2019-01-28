@@ -27,6 +27,5 @@ before_script:
   - sonar-scanner
 
 script:
-  - sonar-scanner
   - python runner
   #- python petproject/DataDemo.py
