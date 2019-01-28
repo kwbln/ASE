@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/screenshots/travis_runner.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/runner.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/local_runner.PNG" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="_files_/" />
@@ -54,13 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            <state relative-caret-position="425">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/screenshots/local_runner.PNG">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenshots/travis_runner.PNG">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -408,21 +419,7 @@
       <workItem from="1548588981822" duration="17956000" />
       <workItem from="1548651902554" duration="128000" />
       <workItem from="1548654549155" duration="3057000" />
-      <workItem from="1548657684512" duration="3991000" />
-    </task>
-    <task id="LOCAL-00019" summary="integrate sonarcube in travis">
-      <created>1546861388808</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1546861388808</updated>
-    </task>
-    <task id="LOCAL-00020" summary="integrate sonarcube in travis">
-      <created>1546862728528</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1546862728528</updated>
+      <workItem from="1548657684512" duration="4763000" />
     </task>
     <task id="LOCAL-00021" summary="integrate sonarcube in travis">
       <created>1546863602077</created>
@@ -753,7 +750,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548662662080</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="trying to use the 'runner'">
+      <created>1548662936100</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1548662936100</updated>
+    </task>
+    <task id="LOCAL-00069" summary="trying to use the 'runner'&#10;removed 2nd sonar-scanner">
+      <created>1548663049825</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1548663049825</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -763,7 +774,7 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92433000" />
+    <option name="totallyTimeSpent" value="93205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -852,11 +863,11 @@
     <MESSAGE value="changed package name -&gt; petproject" />
     <MESSAGE value="file was maybe not available" />
     <MESSAGE value="added 'setup.py install'" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 'setup.py install'" />
+    <MESSAGE value="trying to use the 'runner'" />
+    <MESSAGE value="trying to use the 'runner'&#10;removed 2nd sonar-scanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to use the 'runner'&#10;removed 2nd sonar-scanner" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UML/02_Class.puml" />
-    <entry file="file://$PROJECT_DIR$/UML/00_Component2.puml" />
     <entry file="file://$PROJECT_DIR$/Bouml/UML_BOUML/python_imports" />
     <entry file="file://$PROJECT_DIR$/UML/00_Component.puml" />
     <entry file="file://$PROJECT_DIR$/Bouml/UML_BOUML/generation_settings" />
@@ -1024,10 +1035,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        <state relative-caret-position="425">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/travis_runner.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/local_runner.PNG">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
