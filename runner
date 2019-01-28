@@ -4,6 +4,6 @@
 ##
 ##So, you don't need anything special - no fancy path tricks.
 
-import package.module
+import petproject.DataDemo
 
-package.module.start ()
+petproject.DataDemo

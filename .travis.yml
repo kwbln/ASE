@@ -8,7 +8,7 @@ cache: pip
 
 env:
   global:
-    - PACKAGENAME='MyScripts'
+    - PACKAGENAME='MyPetProject'
 
 addons:
   sonarcloud:
@@ -20,11 +20,11 @@ before_install:
   - pip install -r requirements.txt
 
 install:
-  - python setup.py -q install
+  - python setup.py sdist
 
 before_script:
   - sonar-scanner
 
 script:
   - sonar-scanner
-  - python package/DataDemo.py
+  - python MyPetProject/DataDemo.py
