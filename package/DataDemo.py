@@ -1,4 +1,4 @@
-import DataController as dc
+from package import DataController as dc
 
 
 class DataDemo(object):

@@ -1,6 +1,3 @@
-
-import DataController
-
 class DataDemo(object):
     def main():
         pass

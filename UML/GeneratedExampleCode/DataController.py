@@ -1,7 +1,3 @@
-
-import DataModel
-import DataView
-
 class DataController(object):
     def update_view():
         pass

@@ -1,6 +1,4 @@
-import DataModel as dm
-import DataView as dv
-import strava_setup as strs
+from package import DataModel as dm, DataView as dv, strava_setup as strs
 
 
 class DataController(object):
@@ -11,12 +9,6 @@ class DataController(object):
         self.center = [52.5348302, 13.4720917]
 
     def update_view(self):
-
-        #my_data = dm.DataModel(self.auth_url, self.auth_header)
-        #my_df = my_data.get_activities()
-
-        #my_dv = dv.DataView(self.center , my_df)
-        #my_dv.get_map()
 
         dv.DataView(self.center, dm.DataModel(self.auth_url, self.auth_header).get_activities())
 
