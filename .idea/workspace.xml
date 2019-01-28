@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MANIFEST" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manifest.in" beforeDir="false" afterPath="$PROJECT_DIR$/Manifest.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/petproject-0.9.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/dist/petproject-0.9.tar.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/petproject-0.9/build/lib/petproject/DataModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/dist/petproject-0.9/build/lib/petproject/DataModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/petproject-0.9/build/lib/petproject/DataView.py" beforeDir="false" afterPath="$PROJECT_DIR$/dist/petproject-0.9/build/lib/petproject/DataView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/petproject-0.9/petproject/DataModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/dist/petproject-0.9/petproject/DataModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/petproject-0.9/petproject/DataView.py" beforeDir="false" afterPath="$PROJECT_DIR$/dist/petproject-0.9/petproject/DataView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/petproject-0.9/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/dist/petproject-0.9/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/DataModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/DataView.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/things/data/activities.json" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/files/data/activities.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/things/data/activities.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/files/data/activities.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/things/map/my_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/files/map/my_map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="_files_/" />
@@ -50,13 +35,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Manifest.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="17">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MANIFEST">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -72,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -152,6 +151,7 @@
         <option value="$PROJECT_DIR$/petproject/DataDemo.py" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/Manifest.in" />
+        <option value="$PROJECT_DIR$/README.rst" />
       </list>
     </option>
   </component>
@@ -184,6 +184,13 @@
               <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
               <item name="petproject-0.9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="petproject-0.9" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
@@ -439,14 +446,7 @@
       <workItem from="1548588981822" duration="17956000" />
       <workItem from="1548651902554" duration="128000" />
       <workItem from="1548654549155" duration="3057000" />
-      <workItem from="1548657684512" duration="6498000" />
-    </task>
-    <task id="LOCAL-00023" summary="integrate sonarcube in travis">
-      <created>1546864810053</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1546864810053</updated>
+      <workItem from="1548657684512" duration="8348000" />
     </task>
     <task id="LOCAL-00024" summary="integrate sonarcube in travis">
       <created>1546864832785</created>
@@ -784,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548664372941</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="minor changes">
+      <created>1548666543329</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1548666543329</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -794,13 +801,13 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94940000" />
+    <option name="totallyTimeSpent" value="96790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.20604026" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.20604026" />
       <window_info id="Structure" order="1" sideWeight="0.32911393" side_tool="true" weight="0.19798657" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -813,7 +820,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5087248" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5087248" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49597314" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.8543624" weight="0.3286119" />
@@ -821,10 +828,10 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48523206" visible="true" weight="0.2590604" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.48523206" weight="0.2590604" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="PlantUML" order="5" weight="0.42348993" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="6" sideWeight="0.51476794" side_tool="true" visible="true" weight="0.2590604" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="6" sideWeight="0.51476794" side_tool="true" weight="0.2590604" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -886,10 +893,10 @@
     <MESSAGE value="trying to use the 'runner'" />
     <MESSAGE value="trying to use the 'runner'&#10;removed 2nd sonar-scanner" />
     <MESSAGE value="added generated dist including tar.gz" />
-    <option name="LAST_COMMIT_MESSAGE" value="added generated dist including tar.gz" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UML/00_Component.puml" />
     <entry file="file://$PROJECT_DIR$/Bouml/UML_BOUML/generation_settings" />
     <entry file="file://$PROJECT_DIR$/Bouml/UML_BOUML/128130_2.d" />
     <entry file="file://$PROJECT_DIR$/Bouml/UML_BOUML/tools" />
@@ -1055,23 +1062,26 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MANIFEST">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Manifest.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
 </project>
