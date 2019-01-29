@@ -7,10 +7,11 @@ class DataView(object):
         self.df = dataframe
 
     def get_map(self):
+
         m = folium.Map(location=self.center, tiles='Stamen Terrain', zoom_start=12)
 
         for index, row in self.df.iterrows():
-            folium.Marker(location=[row['start_latitude'], row['start_longitude']],
+            folium.Marker(location=[row['lat'], row['lng']],
                           icon=folium.Icon(color='darkred', icon='circle')).add_to(m)
 
         m.save('./files/map/my_map.html')

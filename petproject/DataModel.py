@@ -9,8 +9,8 @@ import requests as r
 class DataModel(object):
 
     def __init__(self, auth_url, auth_header):
-       self.auth_url = auth_url
-       self.auth_header = auth_header
+        self.auth_url = auth_url
+        self.auth_header = auth_header
 
     def get_activities(self):
         print("Hello user!")
@@ -51,6 +51,10 @@ class DataModel(object):
             print('made xlsx file')
         else:
             print("xlsx already available")
+        # df = pd.read_excel('./files/data/activities.xlsx')
+        # df = df.dropna(subset=['start_latitude', 'start_longitude'], how='any')
+        # df = df.rename(index=str, columns={'start_latitude': 'lat', 'start_longitude': 'lng'})
 
-        return pd.read_excel('./files/data/activities.xlsx') \
-            .dropna(subset=['start_latitude', 'start_longitude'], how='any')
+        return pd.read_excel('./files/data/activities.xlsx')\
+            .dropna(subset=['start_latitude', 'start_longitude'], how='any')\
+            .rename(index=str, columns={'start_latitude': 'lat', 'start_longitude': 'lng'})

@@ -9,4 +9,5 @@ class DataController(object):
         self.center = [52.5348302, 13.4720917]
 
     def update_view(self):
-        dv.DataView(self.center, dm.DataModel(self.auth_url, self.auth_header).get_activities())
+        dv.DataView(self.center, dm.DataModel(self.auth_url, self.auth_header)
+                    .get_activities()).get_map()

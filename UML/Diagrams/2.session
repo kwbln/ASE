@@ -4,7 +4,6 @@ diagrams
   active  classdiagram_ref 167554 // ClassD
     1464 821 100 A4 0 0
 end
-selected classrelation_ref 162946 // (<<uses>>)
 open
   class_ref 182018 // DataController
   class_ref 182146 // DataDemo
