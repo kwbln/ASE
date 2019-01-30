@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/Diagrams/2.session" beforeDir="false" afterPath="$PROJECT_DIR$/UML/Diagrams/2.session" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UML/Diagrams/Diagrams.prj" beforeDir="false" afterPath="$PROJECT_DIR$/UML/Diagrams/Diagrams.prj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/DataController.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/DataModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/DataView.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/files/data/activities.json" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/files/data/activities.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/files/data/activities.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/files/data/activities.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/files/map/my_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/files/map/my_map.html" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="_files_/" />
@@ -130,6 +122,11 @@
             </path>
             <path>
               <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
@@ -190,6 +187,9 @@
       <module name="AdvSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/petproject" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -316,10 +316,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.GetTheData" />
-      <item itemvalue="Python.GetTheDataPart_2" />
       <item itemvalue="Python.DataDemo" />
+      <item itemvalue="Python.GetTheDataPart_2" />
+      <item itemvalue="Python.GetTheData" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.setup" />
     </list>
     <recent_temporary>
@@ -374,21 +374,7 @@
       <workItem from="1548657684512" duration="8938000" />
       <workItem from="1548669278456" duration="635000" />
       <workItem from="1548673419888" duration="155000" />
-      <workItem from="1548738741270" duration="2825000" />
-    </task>
-    <task id="LOCAL-00027" summary="integrate sonarcube in travis">
-      <created>1546880542032</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1546880542032</updated>
-    </task>
-    <task id="LOCAL-00028" summary="...">
-      <created>1546882061435</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1546882061435</updated>
+      <workItem from="1548738741270" duration="3704000" />
     </task>
     <task id="LOCAL-00029" summary="...">
       <created>1546883306718</created>
@@ -719,7 +705,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548669712316</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="colnames -&gt; lat / lng">
+      <created>1548741638967</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1548741638967</updated>
+    </task>
+    <task id="LOCAL-00077" summary="one more todo">
+      <created>1548741827122</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1548741827122</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -729,12 +729,12 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100995000" />
+    <option name="totallyTimeSpent" value="101874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.21409395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.21409395" />
       <window_info id="Structure" order="1" sideWeight="0.32911393" side_tool="true" weight="0.19798657" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -747,10 +747,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5087248" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3738255" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49597314" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="13" sideWeight="0.8543624" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.6261745" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="YouTrack" order="14" sideWeight="0.84563756" weight="0.3243626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -821,7 +821,9 @@
     <MESSAGE value="trying to use the 'runner'&#10;removed 2nd sonar-scanner" />
     <MESSAGE value="added generated dist including tar.gz" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="colnames -&gt; lat / lng" />
+    <MESSAGE value="one more todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="one more todo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Bouml/Documentation/style.css" />
