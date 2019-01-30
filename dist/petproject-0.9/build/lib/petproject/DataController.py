@@ -1,4 +1,4 @@
-from petproject import DataModel as dm, DataView as dv, strava_setup as strs
+from petproject import DataModel as dm, DataView as dv, StravaSetup as strs
 
 
 class DataController(object):

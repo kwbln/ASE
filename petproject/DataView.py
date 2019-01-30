@@ -2,12 +2,11 @@ import folium
 
 
 class DataView(object):
-    def __init__(self, center, dataframe):
-        self.center = center
+    def __init__(self, dataframe):
+        self.center = [52.5348302, 13.4720917]
         self.df = dataframe
 
     def get_map(self):
-
         m = folium.Map(location=self.center, tiles='Stamen Terrain', zoom_start=12)
 
         for index, row in self.df.iterrows():
