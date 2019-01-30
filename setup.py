@@ -16,7 +16,6 @@ setup(name='petproject',
       url='https://github.com/kwbln/AdvSE',
       packages=['petproject'],
       package_data={'petproject': files},
-      # 'runner' is in the root.
       scripts=['runner'],
       long_description=readme()
       )

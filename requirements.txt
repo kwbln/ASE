@@ -3,3 +3,4 @@ folium
 openpyxl
 xlrd
 requests
+jsonmerge
