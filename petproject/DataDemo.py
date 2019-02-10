@@ -8,7 +8,9 @@ class DataDemo(object):
 
     def main(self):
         try:
-            dc.DataController('MyController').update_view()
+            # creates a controller and runs the update method
+            my_data_controller = dc.DataController()
+            my_data_controller.update_views()
             self.success = 'Yeah! Great demo!'
             print(self.success)
         except Exception:
