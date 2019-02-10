@@ -48,20 +48,20 @@ def even(*x):  # normal function which returns data
     return 'It\'s an even ' + str(len(x) % 2)
 
 
-def get_even_or_odd(num_len):  # function which returns functions depending on the logic
-    if num_len % 2 == 0:
+def get_even_or_odd(list_len):  # function which returns functions depending on the logic
+    if list_len % 2 == 0:
 
         return even
-    elif num_len % 2 != 0:
+    elif list_len % 2 != 0:
         return odd
 
 
 my_list = [1, 2, 3]
-num_len = len(my_list)
-result_function = get_even_or_odd(num_len)
+list_len = len(my_list)
+result_function = get_even_or_odd(list_len)
 print(result_function(*my_list))
 
 my_list = [1, 2]
-num_len = len(my_list)
-result_function = get_even_or_odd(num_len)
+list_len = len(my_list)
+result_function = get_even_or_odd(list_len)
 print(result_function(*my_list))
