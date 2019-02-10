@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UML/ReverseFromCode/Classes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/ReverseFromCode/JavaScript-modules-diagram" afterDir="false" />
+    <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="FuncProg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/DataController.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/DataDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataDemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/DataModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/DataView.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petproject/PlayingFunctional.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlayingFunctional.py" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="_files_/" />
@@ -35,8 +30,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petproject/DataController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="19" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PlayingFunctional.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -53,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petproject/DataModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="45" column="98" selection-start-line="45" selection-start-column="98" selection-end-line="45" selection-end-column="98" />
+            <state relative-caret-position="238">
+              <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="43" selection-end-column="95" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -63,71 +67,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://Python/#C:/Users/kwagn/Github/AdvSE/petproject">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>Python</ID>
-              <OriginalElement>#C:/Users/kwagn/Github/AdvSE/petproject</OriginalElement>
-              <nodes>
-                <node x="0.0" y="587.0">petproject.DataController.DataController</node>
-                <node x="727.0" y="543.0">petproject.DataView.DataView</node>
-                <node x="365.75" y="0.0">object</node>
-                <node x="499.0" y="587.0">petproject.DataDemo.DataDemo</node>
-                <node x="268.0" y="565.0">petproject.DataModel.DataModel</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="petproject.DataController.DataController" target="object">
-                  <point x="0.0" y="-48.5" />
-                  <point x="124.0" y="513.0" />
-                  <point x="396.375" y="513.0" />
-                  <point x="-91.875" y="246.5" />
-                </edge>
-                <edge source="petproject.DataView.DataView" target="object">
-                  <point x="0.0" y="-92.5" />
-                  <point x="824.0" y="513.0" />
-                  <point x="580.125" y="513.0" />
-                  <point x="91.875" y="246.5" />
-                </edge>
-                <edge source="petproject.DataModel.DataModel" target="object">
-                  <point x="0.0" y="-70.5" />
-                  <point x="373.5" y="523.0" />
-                  <point x="457.625" y="523.0" />
-                  <point x="-30.625" y="246.5" />
-                </edge>
-                <edge source="petproject.DataDemo.DataDemo" target="object">
-                  <point x="0.0" y="-48.5" />
-                  <point x="603.0" y="523.0" />
-                  <point x="518.875" y="523.0" />
-                  <point x="30.625" y="246.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="165.5" y="568.0" />
-              <SelectedNodes>
-                <node>petproject.DataController.DataController</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Methods</Category>
-                <Category>Fields</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/petproject/DataView.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+            <state relative-caret-position="170">
+              <caret line="10" column="27" lean-forward="true" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -202,6 +145,8 @@
         <option value="$PROJECT_DIR$/petproject/DataDemo.py" />
         <option value="$PROJECT_DIR$/petproject/DataModel.py" />
         <option value="$PROJECT_DIR$/petproject/DataView.py" />
+        <option value="$PROJECT_DIR$/petproject/FunctionalWay.py" />
+        <option value="$PROJECT_DIR$/petproject/PlayingFunctional.py" />
       </list>
     </option>
   </component>
@@ -234,19 +179,6 @@
               <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
               <item name="petproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
-              <item name="petproject" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
-              <item name="petproject" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
@@ -287,11 +219,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kwagn\Github\AdvSE" />
       <recent name="C:\Users\kwagn\Github\AdvSE\uml\Reverse" />
       <recent name="C:\Users\kwagn\.PyCharm2018.3\config\scratches" />
       <recent name="C:\Users\kwagn\Github\AdvSE\package" />
       <recent name="C:\Users\kwagn\Github\AdvSE\package\things" />
-      <recent name="C:\Users\kwagn\Github\AdvSE" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kwagn\Github\AdvSE\uml\Reverse\ReverseEngineering" />
@@ -313,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DataDemo">
+  <component name="RunManager" selected="Python.FunctionalWay">
     <configuration name="DataDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AdvSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,6 +257,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/petproject/DataDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FunctionalWay" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AdvSE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/petproject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\kwagn\Github\AdvSE\PlayingFunctional.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -421,22 +372,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.GetTheData" />
       <item itemvalue="Python.DataDemo" />
       <item itemvalue="Python.setup" />
+      <item itemvalue="Python.FunctionalWay" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FunctionalWay" />
         <item itemvalue="Python.DataDemo" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.setup" />
@@ -492,20 +437,6 @@
       <workItem from="1548921136822" duration="1015000" />
       <workItem from="1549776161246" duration="6223000" />
       <workItem from="1549786769677" duration="1208000" />
-    </task>
-    <task id="LOCAL-00034" summary="...">
-      <created>1546886717884</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1546886717884</updated>
-    </task>
-    <task id="LOCAL-00035" summary="...">
-      <created>1546887305817</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1546887305817</updated>
     </task>
     <task id="LOCAL-00036" summary="...">
       <created>1546888284195</created>
@@ -836,7 +767,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549782672129</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="some quality issues">
+      <created>1549813421353</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1549813421353</updated>
+    </task>
+    <task id="LOCAL-00084" summary="FuncProg">
+      <created>1549819227402</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1549819227402</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -845,11 +790,10 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118477000" />
+    <option name="totallyTimeSpent" value="124758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.2261745" />
       <window_info id="Structure" order="1" sideWeight="0.32911393" side_tool="true" weight="0.19798657" />
@@ -950,10 +894,11 @@
     <MESSAGE value="colnames -&gt; lat / lng" />
     <MESSAGE value="one more todo" />
     <MESSAGE value="played around with json" />
-    <option name="LAST_COMMIT_MESSAGE" value="played around with json" />
+    <MESSAGE value="some quality issues" />
+    <MESSAGE value="FuncProg" />
+    <option name="LAST_COMMIT_MESSAGE" value="FuncProg" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.scannerwork/report-task.txt" />
     <entry file="file://$PROJECT_DIR$/MyScripts/csvtest.csv" />
     <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pandas/__init__.py" />
     <entry file="file://$PROJECT_DIR$/MyScripts/abc.json" />
@@ -1111,10 +1056,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/petproject/files/data/activity_details_2034421990.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="35" />
+        <state>
+          <caret column="86" lean-forward="true" selection-start-column="86" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -1124,43 +1069,16 @@
           <ID>Python</ID>
           <OriginalElement>#C:/Users/kwagn/Github/AdvSE/petproject</OriginalElement>
           <nodes>
-            <node x="0.0" y="587.0">petproject.DataController.DataController</node>
-            <node x="727.0" y="543.0">petproject.DataView.DataView</node>
-            <node x="365.75" y="0.0">object</node>
-            <node x="499.0" y="587.0">petproject.DataDemo.DataDemo</node>
-            <node x="268.0" y="565.0">petproject.DataModel.DataModel</node>
+            <node x="" y="">petproject.DataController.DataController</node>
+            <node x="" y="">petproject.DataView.DataView</node>
+            <node x="" y="">object</node>
+            <node x="" y="">petproject.DataDemo.DataDemo</node>
+            <node x="" y="">petproject.DataModel.DataModel</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="petproject.DataController.DataController" target="object">
-              <point x="0.0" y="-48.5" />
-              <point x="124.0" y="513.0" />
-              <point x="396.375" y="513.0" />
-              <point x="-91.875" y="246.5" />
-            </edge>
-            <edge source="petproject.DataView.DataView" target="object">
-              <point x="0.0" y="-92.5" />
-              <point x="824.0" y="513.0" />
-              <point x="580.125" y="513.0" />
-              <point x="91.875" y="246.5" />
-            </edge>
-            <edge source="petproject.DataModel.DataModel" target="object">
-              <point x="0.0" y="-70.5" />
-              <point x="373.5" y="523.0" />
-              <point x="457.625" y="523.0" />
-              <point x="-30.625" y="246.5" />
-            </edge>
-            <edge source="petproject.DataDemo.DataDemo" target="object">
-              <point x="0.0" y="-48.5" />
-              <point x="603.0" y="523.0" />
-              <point x="518.875" y="523.0" />
-              <point x="30.625" y="246.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="165.5" y="568.0" />
-          <SelectedNodes>
-            <node>petproject.DataController.DataController</node>
-          </SelectedNodes>
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="460.5" y="538.0" />
+          <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
             <Category>Fields</Category>
@@ -1168,17 +1086,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petproject/files/data/activity_details_2034421990.json">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="86" lean-forward="true" selection-start-column="86" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petproject/DataController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="272">
+          <caret line="25" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1189,20 +1100,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petproject/DataModel.py">
+    <entry file="file://$PROJECT_DIR$/petproject/DataView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" lean-forward="true" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petproject/DataController.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="45" column="98" selection-start-line="45" selection-start-column="98" selection-end-line="45" selection-end-column="98" />
+          <caret line="3" selection-start-line="3" selection-end-line="19" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petproject/DataModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="43" selection-end-column="95" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petproject/DataView.py">
+    <entry file="file://$PROJECT_DIR$/PlayingFunctional.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        <state relative-caret-position="136">
+          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
         </state>
       </provider>
     </entry>
