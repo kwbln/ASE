@@ -3,9 +3,9 @@ import json
 import jsl
 
 
-class User(jsl.Document):
-    id = jsl.StringField(required=True)
-    login = jsl.StringField(required=True, min_length=3, max_length=20)
+class GeoData(jsl.Document):
+    lat = jsl.NumberField(required=True)
+    lng = jsl.NumberField(required=True)
 
 
 class Activity(jsl.Document):
@@ -15,12 +15,10 @@ class Activity(jsl.Document):
     start_time = jsl.DateTimeField(required=True)
     end_time = jsl.DateTimeField(required=True)
     start_gps = jsl.ArrayField(
-        lat=jsl.NumberField,
-        lng=jsl.NumberField
-    ),
+        jsl.DocumentField(GeoData, as_ref=True)
+    )
     end_gps = jsl.ArrayField(
-        lat=jsl.NumberField,
-        lng=jsl.NumberField
+        jsl.DocumentField(GeoData, as_ref=True)
     )
 
 
