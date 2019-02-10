@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="FuncProg">
+    <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/PlayingFunctional.py" beforeDir="false" afterPath="$PROJECT_DIR$/PlayingFunctional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayingFunctional.py" beforeDir="false" afterPath="$PROJECT_DIR$/FunctionalProgramming/PlayingFunctional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML/ReverseFromCode/Classes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML/ReverseFromCode/JavaScript-modules-diagram" beforeDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="_files_/" />
@@ -28,56 +30,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petproject/DataController.py">
+        <entry file="file://$PROJECT_DIR$/FunctionalProgramming/PlayingFunctional.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="19" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PlayingFunctional.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+            <state relative-caret-position="323">
+              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petproject/DataDemo.py">
+        <entry file="file://$PROJECT_DIR$/DomainSpecificLanguage/PlayingDSL.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petproject/DataModel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="43" selection-end-column="95" />
+            <state relative-caret-position="255">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petproject/DataView.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DomainSpecificLanguage/my_json.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" lean-forward="true" selection-end-line="36" />
+            <state>
+              <caret column="65" lean-forward="true" selection-end-column="405" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petproject/StravaSetup.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -147,13 +126,16 @@
         <option value="$PROJECT_DIR$/petproject/DataView.py" />
         <option value="$PROJECT_DIR$/petproject/FunctionalWay.py" />
         <option value="$PROJECT_DIR$/petproject/PlayingFunctional.py" />
+        <option value="$PROJECT_DIR$/PlayingFunctional.py" />
+        <option value="$PROJECT_DIR$/DomainSpecificLanguage/my_json.json" />
+        <option value="$PROJECT_DIR$/DomainSpecificLanguage/PlayingDSL.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="846" />
+    <option name="x" value="845" />
     <option name="y" value="25" />
-    <option name="width" value="989" />
+    <option name="width" value="990" />
     <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -173,7 +155,12 @@
             <path>
               <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="DomainSpecificLanguage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdvSE" type="462c0819:PsiDirectoryNode" />
+              <item name="FunctionalProgramming" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
@@ -189,11 +176,6 @@
               <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
-            <path>
-              <item name="AdvSE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -206,8 +188,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549787917322" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python&#10;Cython" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/uml/Reverse/ReverseEngineering" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pydsltool" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -219,11 +201,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kwagn\Github\AdvSE\FunctionalProgramming" />
       <recent name="C:\Users\kwagn\Github\AdvSE" />
       <recent name="C:\Users\kwagn\Github\AdvSE\uml\Reverse" />
       <recent name="C:\Users\kwagn\.PyCharm2018.3\config\scratches" />
       <recent name="C:\Users\kwagn\Github\AdvSE\package" />
-      <recent name="C:\Users\kwagn\Github\AdvSE\package\things" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kwagn\Github\AdvSE\uml\Reverse\ReverseEngineering" />
@@ -245,11 +227,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FunctionalWay">
+  <component name="RunManager" selected="Python.PlayingDSL">
     <configuration name="DataDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AdvSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/petproject" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -269,13 +254,16 @@
       <module name="AdvSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/petproject" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\kwagn\Github\AdvSE\PlayingFunctional.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\kwagn\Github\AdvSE\FunctionalProgramming\PlayingFunctional.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,22 +272,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GetTheData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PlayingDSL" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AdvSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyScripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DomainSpecificLanguage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyScripts/GetTheData.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DomainSpecificLanguage/PlayingDSL.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -374,18 +359,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.GetTheData" />
       <item itemvalue="Python.DataDemo" />
       <item itemvalue="Python.setup" />
       <item itemvalue="Python.FunctionalWay" />
+      <item itemvalue="Python.PlayingDSL" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PlayingDSL" />
         <item itemvalue="Python.FunctionalWay" />
         <item itemvalue="Python.DataDemo" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.setup" />
-        <item itemvalue="Python.GetTheData" />
       </list>
     </recent_temporary>
   </component>
@@ -437,20 +422,7 @@
       <workItem from="1548921136822" duration="1015000" />
       <workItem from="1549776161246" duration="6223000" />
       <workItem from="1549786769677" duration="1208000" />
-    </task>
-    <task id="LOCAL-00036" summary="...">
-      <created>1546888284195</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1546888284195</updated>
-    </task>
-    <task id="LOCAL-00037" summary="...">
-      <created>1546888333110</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1546888333110</updated>
+      <workItem from="1549821805481" duration="9343000" />
     </task>
     <task id="LOCAL-00038" summary="...">
       <created>1546888861066</created>
@@ -781,7 +753,21 @@
       <option name="project" value="LOCAL" />
       <updated>1549819227402</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="FuncProg moved">
+      <created>1549819661093</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1549819661094</updated>
+    </task>
+    <task id="LOCAL-00086" summary="FuncProg moved">
+      <created>1549820393867</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1549820393867</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -790,12 +776,13 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124758000" />
+    <option name="totallyTimeSpent" value="136117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.2261745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.24765101" />
       <window_info id="Structure" order="1" sideWeight="0.32911393" side_tool="true" weight="0.19798657" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -815,7 +802,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17248322" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49530202" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49932885" weight="0.3286119" />
-      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.8275168" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.8275168" visible="true" weight="0.49008498" />
       <window_info anchor="bottom" id="YouTrack" order="14" sideWeight="0.84563756" weight="0.3243626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -823,7 +810,7 @@
       <window_info anchor="right" id="SciView" order="3" sideWeight="0.48523206" weight="0.2590604" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="PlantUML" order="5" weight="0.42348993" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="6" sideWeight="0.51476794" side_tool="true" visible="true" weight="0.055704698" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="6" sideWeight="0.51476794" side_tool="true" visible="true" weight="0.26644295" />
       <window_info anchor="right" id="Maven" order="7" />
       <window_info anchor="right" id="Palette" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="9" />
@@ -896,13 +883,10 @@
     <MESSAGE value="played around with json" />
     <MESSAGE value="some quality issues" />
     <MESSAGE value="FuncProg" />
-    <option name="LAST_COMMIT_MESSAGE" value="FuncProg" />
+    <MESSAGE value="FuncProg moved" />
+    <option name="LAST_COMMIT_MESSAGE" value="FuncProg moved" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyScripts/csvtest.csv" />
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/pandas/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/MyScripts/abc.json" />
-    <entry file="file://$PROJECT_DIR$/MyScripts/abc.csv" />
     <entry file="file://$PROJECT_DIR$/MyScripts/main_2.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.pyx" />
     <entry file="file://$PROJECT_DIR$/MyScripts/activities_data.json" />
@@ -1003,13 +987,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scala.dsl.test/Run.scala" />
-    <entry file="file://$PROJECT_DIR$/scala.dsl.test/Demo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scala.dsl.test/Demo.scala" />
     <entry file="uml://JavaScript-modules-diagram/C:/Users/kwagn/Github/AdvSE/petproject">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1030,11 +1008,12 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.8993576017130621" x="241.5" y="223.5" />
+          <settings layout="Hierarchic Group" zoom="0.8993576017130621" x="242.0" y="224.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
@@ -1053,6 +1032,7 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="124.0" y="55.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1077,12 +1057,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="460.5" y="538.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="461.0" y="538.0" />
           <SelectedNodes />
           <Categories>
             <Category>Methods</Category>
             <Category>Fields</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1103,31 +1084,72 @@
     <entry file="file://$PROJECT_DIR$/petproject/DataView.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="27" lean-forward="true" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petproject/DataController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="19" selection-end-column="70" />
+          <caret line="10" column="27" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petproject/DataModel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="43" selection-end-column="95" />
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="43" selection-end-column="95" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PlayingFunctional.py">
+    <entry file="uml://Python/#C:/Users/kwagn/Github/AdvSE/petproject/DataView.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/kwagn/Github/AdvSE/petproject/DataView.py</OriginalElement>
+          <nodes>
+            <node x="" y="">petproject.DataView.DataView</node>
+            <node x="" y="">object</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-60.0" y="516.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomainSpecificLanguage/file.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petproject/DataController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FunctionalProgramming/PlayingFunctional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomainSpecificLanguage/PlayingDSL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DomainSpecificLanguage/my_json.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="65" lean-forward="true" selection-end-column="405" />
         </state>
       </provider>
     </entry>
