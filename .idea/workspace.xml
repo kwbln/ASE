@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c9105177-7049-47e7-a1c7-909ee7091dd6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/petproject-0.9/build/lib/petproject/DataController.py" beforeDir="false" afterPath="$PROJECT_DIR$/dist/petproject-0.9/build/lib/petproject/DataController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/petproject-0.9/petproject/DataController.py" beforeDir="false" afterPath="$PROJECT_DIR$/dist/petproject-0.9/petproject/DataController.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/DataController.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataController.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petproject/DataModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/DataView.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/DataView.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petproject/files/map/my_map.html" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/files/map/my_map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petproject/strava_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/petproject/StravaSetup.py" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <ignored path="_files_/" />
@@ -32,7 +27,7 @@
     <SUITE FILE_PATH="coverage/ASE$GetTheDataPart_2.coverage" NAME="GetTheDataPart_2 Coverage Results" MODIFIED="1544442464908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScripts" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petproject/DataController.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -42,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/petproject/DataModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -54,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petproject/DataView.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="221">
               <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
             </state>
           </provider>
@@ -73,10 +68,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -133,14 +137,12 @@
         <option value="$PROJECT_DIR$/MyScripts/Preparator.py" />
         <option value="$PROJECT_DIR$/MyScripts/DataDemo.py" />
         <option value="$PROJECT_DIR$/MyScripts/setup.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/MyScripts/DataModel.py" />
         <option value="$PROJECT_DIR$/MyScripts/DataView.py" />
         <option value="$PROJECT_DIR$/MyScripts/DataController.py" />
         <option value="$PROJECT_DIR$/package/DataView.py" />
         <option value="$PROJECT_DIR$/package/DataModel.py" />
         <option value="$PROJECT_DIR$/MyPetProject/DataController.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/runner" />
         <option value="$PROJECT_DIR$/petproject/DataDemo.py" />
         <option value="$PROJECT_DIR$/.travis.yml" />
@@ -149,8 +151,10 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/petproject/GetTheData.py" />
         <option value="$PROJECT_DIR$/petproject/DataController.py" />
-        <option value="$PROJECT_DIR$/petproject/DataModel.py" />
         <option value="$PROJECT_DIR$/petproject/DataView.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/petproject/DataModel.py" />
       </list>
     </option>
   </component>
@@ -166,6 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,14 +207,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python&#10;Cython" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -252,6 +256,9 @@
       <module name="AdvSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/petproject" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -437,21 +444,10 @@
       <workItem from="1548669278456" duration="635000" />
       <workItem from="1548673419888" duration="155000" />
       <workItem from="1548738741270" duration="3704000" />
-      <workItem from="1548831404930" duration="4052000" />
-    </task>
-    <task id="LOCAL-00030" summary="...">
-      <created>1546884590631</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1546884590631</updated>
-    </task>
-    <task id="LOCAL-00031" summary="...">
-      <created>1546884643719</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1546884643719</updated>
+      <workItem from="1548831404930" duration="5434000" />
+      <workItem from="1548860088935" duration="407000" />
+      <workItem from="1548921136822" duration="1015000" />
+      <workItem from="1549776161246" duration="764000" />
     </task>
     <task id="LOCAL-00032" summary="...">
       <created>1546885205880</created>
@@ -782,7 +778,21 @@
       <option name="project" value="LOCAL" />
       <updated>1548831431592</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="played around with json">
+      <created>1548835528751</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1548835528751</updated>
+    </task>
+    <task id="LOCAL-00080" summary="played around with json">
+      <created>1548835691749</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1548835691749</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers>
       <YouTrack url="https://kwbln.myjetbrains.com/youtrack">
         <option name="defaultSearch" value="#{Assigned to me} #Unresolved " />
@@ -792,13 +802,12 @@
     </servers>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105926000" />
+    <option name="totallyTimeSpent" value="109494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.21677852" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6708861" visible="true" weight="0.2261745" />
       <window_info id="Structure" order="1" sideWeight="0.32911393" side_tool="true" weight="0.19798657" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -811,10 +820,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16979866" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17181209" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49530202" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="13" sideWeight="0.8302013" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="13" sideWeight="0.82818794" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="YouTrack" order="14" sideWeight="0.84563756" weight="0.3243626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -887,7 +896,8 @@
     <MESSAGE value="minor changes" />
     <MESSAGE value="colnames -&gt; lat / lng" />
     <MESSAGE value="one more todo" />
-    <option name="LAST_COMMIT_MESSAGE" value="one more todo" />
+    <MESSAGE value="played around with json" />
+    <option name="LAST_COMMIT_MESSAGE" value="played around with json" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Bouml/Documentation/style.css" />
@@ -974,13 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sonar-project.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1028,6 +1031,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/petproject/DataController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petproject/DataView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1035,10 +1052,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1051,25 +1075,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/petproject/DataModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        <state relative-caret-position="136">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petproject/DataController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petproject/DataView.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
         </state>
       </provider>
     </entry>
