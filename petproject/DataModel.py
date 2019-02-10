@@ -17,60 +17,41 @@ class DataModel(object):
         self.auth_header = {'Authorization': strs.authorization}
 
     def get_activities(self):
+        try:
+            if os.path.isdir('files') == False:
+                os.mkdir('files')
 
-        if os.path.isdir('files') == False:
-            os.mkdir('files')
+            if os.path.isdir('files/data') == False:
+                os.mkdir('files/data')
 
-        else:
-            print('ok')
+            if os.path.isdir('files/map') == False:
+                os.mkdir('files/map')
 
-        if os.path.isdir('files/data') == False:
-            os.mkdir('files/data')
+            if os.path.isfile('./files/data/activities.json') == False:
+                json_data = r.get(self.auth_url1, headers=self.auth_header).json()
 
-        else:
-            print('ok')
+                with codecs.open('./files/data/activities.json', 'w', 'utf8') as f:
+                    f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
 
-        if os.path.isdir('files/map') == False:
-            os.mkdir('files/map')
-        else:
-            print('ok')
+            if os.path.isfile('./files/data/activities.xlsx') == False:
+                pd.read_json("./files/data/activities.json").to_excel("./files/data/activities.xlsx")
 
-        if os.path.isfile('./files/data/activities.json') == False:
+            my_data = pd.read_excel('./files/data/activities.xlsx') \
+                .dropna(subset=['start_latitude', 'start_longitude'], how='any') \
+                .rename(index=str, columns={'start_latitude': 'lat', 'start_longitude': 'lng'})
 
-            json_data = r.get(self.auth_url1, headers=self.auth_header).json()
+            for index, row in my_data.iterrows():
+                json_data2 = r.get(self.auth_url2 + '/' + str(row['id']), headers=self.auth_header).json()
 
-            with codecs.open('./files/data/activities.json', 'w', 'utf8') as f:
-                f.write(json.dumps(json_data, sort_keys=True, ensure_ascii=False))
+                with codecs.open('./files/data/activity_details_' + str(row['id']) + '.json', 'w', 'utf8') as f:
+                    f.write(json.dumps(json_data2, sort_keys=True, ensure_ascii=False))
 
-        else:
-            print('ok')
+                result = None
+                result = merge(result, json_data2)
 
-        if os.path.isfile('./files/data/activities.xlsx') == False:
-            pd.read_json("./files/data/activities.json").to_excel("./files/data/activities.xlsx")
-        else:
-            print('ok')
-        # df = pd.read_excel('./files/data/activities.xlsx')
-        # df = df.dropna(subset=['start_latitude', 'start_longitude'], how='any')
-        # df = df.rename(index=str, columns={'start_latitude': 'lat', 'start_longitude': 'lng'})
+                with codecs.open('./files/data/activity_details.json', 'w', 'utf8') as f:
+                    f.write(json.dumps(result, sort_keys=True, ensure_ascii=False))
 
-        df = pd.read_excel('./files/data/activities.xlsx') \
-            .dropna(subset=['start_latitude', 'start_longitude'], how='any') \
-            .rename(index=str, columns={'start_latitude': 'lat', 'start_longitude': 'lng'})
-
-        for index, row in df.iterrows():
-            json_data2 = r.get(self.auth_url2 + '/' + str(row['id']), headers=self.auth_header).json()
-            # json_data = r.get(self.auth_url1, headers=self.auth_header).json()
-
-            with codecs.open('./files/data/activity_details_' + str(row['id']) + '.json', 'w', 'utf8') as f:
-                f.write(json.dumps(json_data2, sort_keys=True, ensure_ascii=False))
-
-            result = None
-            result = merge(result, json_data2)
-
-            with codecs.open('./files/data/activity_details.json', 'w', 'utf8') as f:
-                f.write(json.dumps(result, sort_keys=True, ensure_ascii=False))
-
-        # pd.read_json('./files/data/activity_details.json').to_excel('./files/data/activity_details.xlsx')
-        # print(pd.DataFrame.from_dict(result, orient='index'))
-
-        return df
+            return my_data
+        except Exception:
+            print("An error occured - DataModel - get_activities()")
